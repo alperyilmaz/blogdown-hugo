@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Assoc.Prof.Dr. Alper YILMAZ</title>
-    <link>http://alperyilmaz.site/</link>
-      <atom:link href="http://alperyilmaz.site/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alpeyilmaz.github.io/blogdown-hugo/</link>
+      <atom:link href="https://alpeyilmaz.github.io/blogdown-hugo/index.xml" rel="self" type="application/rss+xml" />
     <description>Assoc.Prof.Dr. Alper YILMAZ</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://alperyilmaz.site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://alpeyilmaz.github.io/blogdown-hugo/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Assoc.Prof.Dr. Alper YILMAZ</title>
-      <link>http://alperyilmaz.site/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/</link>
     </image>
     
     <item>
       <title>Python basics</title>
-      <link>http://alperyilmaz.site/courses/example/python/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/python/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/courses/example/python/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/python/</guid>
       <description>&lt;p&gt;Build a foundation in Python.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
@@ -51,9 +51,9 @@
     
     <item>
       <title>Visualization</title>
-      <link>http://alperyilmaz.site/courses/example/visualization/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/visualization/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/courses/example/visualization/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/visualization/</guid>
       <description>&lt;p&gt;Learn how to visualize data with Plotly.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
@@ -81,9 +81,9 @@ fig.show()
     
     <item>
       <title>Statistics</title>
-      <link>http://alperyilmaz.site/courses/example/stats/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/stats/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/courses/example/stats/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/stats/</guid>
       <description>&lt;p&gt;Introduction to statistics for data science.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
@@ -109,9 +109,9 @@ The variance of the distribution is $\sigma^{2}$.
     
     <item>
       <title>Example Talk</title>
-      <link>http://alperyilmaz.site/talk/example-talk/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/talk/example-talk/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -129,33 +129,33 @@ The variance of the distribution is $\sigma^{2}$.
     
     <item>
       <title>test2</title>
-      <link>http://alperyilmaz.site/post/2021-12-27-test2/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-27-test2/</link>
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2021-12-27-test2/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-27-test2/</guid>
       <description>
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-27-test2/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-27-test2/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(mtcars)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://alperyilmaz.site/post/2021-12-27-test2/index.en_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-27-test2/index.en_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>COVID visuals - daily new cases per million</title>
-      <link>http://alperyilmaz.site/post/2021-12-26-covid-visuals/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/</link>
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2021-12-26-covid-visuals/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/</guid>
       <description>
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;load-libraries&#34; class=&#34;section level1&#34;&gt;
@@ -280,7 +280,7 @@ p &amp;lt;- initial %&amp;gt;%
   geom_line()
 
 p&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;1080&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;1080&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The plot is too rugged. Let’s do weekly average by using excellent &lt;code&gt;slider::slide&lt;/code&gt; function (instead of &lt;code&gt;zoo::rollmean&lt;/code&gt;)&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;initial %&amp;gt;%
   filter(country_region %in% select_countries) %&amp;gt;%
@@ -300,7 +300,7 @@ p&lt;/code&gt;&lt;/pre&gt;
   geom_line() -&amp;gt; p2
 
 p2&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;1440&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;1440&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;using &lt;code&gt;plotly&lt;/code&gt; package, we can have interactive results by issuing &lt;code&gt;ggplotly(p)&lt;/code&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(plotly)
 
@@ -314,23 +314,23 @@ ggplotly(p2) &lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>this is a test post</title>
-      <link>http://alperyilmaz.site/post/2021-12-24-this-is-a-test-post/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-24-this-is-a-test-post/</link>
       <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2021-12-24-this-is-a-test-post/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-24-this-is-a-test-post/</guid>
       <description>
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-24-this-is-a-test-post/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-24-this-is-a-test-post/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(mtcars)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://alperyilmaz.site/post/2021-12-24-this-is-a-test-post/index.en_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-24-this-is-a-test-post/index.en_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Secondary Metabolite Retrosynthesis</title>
-      <link>http://alperyilmaz.site/project/secondary-metabolite-retrosynthesis/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/project/secondary-metabolite-retrosynthesis/</link>
       <pubDate>Fri, 17 Dec 2021 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/project/secondary-metabolite-retrosynthesis/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/project/secondary-metabolite-retrosynthesis/</guid>
       <description>&lt;p&gt;Plant secondary metabolites constitute a useful array of natural ingredients especially for therapeutics and additives for the food industry and many other industrial fields. Thereby, metabolic engineers are looking for alternative strategies that may be more efficient for the enhancement of valuable secondary metabolite production quality and quantity. However, the knowledge of production pathways and related enzymes of secondary metabolites is quite scarce. Therefore, discovery of these unknown pathway elements becomes more of an issue.&lt;/p&gt;
 &lt;p&gt;
 
@@ -351,10 +351,10 @@ ggplotly(p2) &lt;/code&gt;&lt;/pre&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;step1&#34; srcset=&#34;
-               /project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_62bc70c464bc33422af245cac55db8ae.png 400w,
-               /project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_2abe7732d53e4e7c517ae28e05125abe.png 760w,
-               /project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;http://alperyilmaz.site/project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_62bc70c464bc33422af245cac55db8ae.png&#34;
+               /blogdown-hugo/project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_62bc70c464bc33422af245cac55db8ae.png 400w,
+               /blogdown-hugo/project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_2abe7732d53e4e7c517ae28e05125abe.png 760w,
+               /blogdown-hugo/project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/blogdown-hugo/project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_62bc70c464bc33422af245cac55db8ae.png&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -380,10 +380,10 @@ ggplotly(p2) &lt;/code&gt;&lt;/pre&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;step2&#34; srcset=&#34;
-               /project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_06b9aac2515e1f92f927aec4bde3a145.png 400w,
-               /project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_fe068bf25814d87342ce191e0cc06e9f.png 760w,
-               /project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;http://alperyilmaz.site/project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_06b9aac2515e1f92f927aec4bde3a145.png&#34;
+               /blogdown-hugo/project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_06b9aac2515e1f92f927aec4bde3a145.png 400w,
+               /blogdown-hugo/project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_fe068bf25814d87342ce191e0cc06e9f.png 760w,
+               /blogdown-hugo/project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/blogdown-hugo/project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_06b9aac2515e1f92f927aec4bde3a145.png&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -394,17 +394,17 @@ ggplotly(p2) &lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Tissue Specific Gene Expression</title>
-      <link>http://alperyilmaz.site/project/tissue-specific-gene-expression/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/project/tissue-specific-gene-expression/</link>
       <pubDate>Fri, 17 Dec 2021 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/project/tissue-specific-gene-expression/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/project/tissue-specific-gene-expression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>http://alperyilmaz.site/post/2020-12-13-welcome-to-wowchemy-the-website-builder-for-hugo/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2020-12-13-welcome-to-wowchemy-the-website-builder-for-hugo/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2020-12-13-welcome-to-wowchemy-the-website-builder-for-hugo/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2020-12-13-welcome-to-wowchemy-the-website-builder-for-hugo/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
@@ -479,11 +479,11 @@ ggplotly(p2) &lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Hello R Markdown</title>
-      <link>http://alperyilmaz.site/post/2020-12-01-hello-r-markdown/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2020-12-01-hello-r-markdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      <guid>http://alperyilmaz.site/post/2020-12-01-hello-r-markdown/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2020-12-01-hello-r-markdown/</guid>
       <description>
-&lt;script src=&#34;http://alperyilmaz.site/post/2020-12-01-hello-r-markdown/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2020-12-01-hello-r-markdown/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
@@ -519,7 +519,7 @@ pie(
   init.angle = -50, border = NA
 )&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://alperyilmaz.site/post/2020-12-01-hello-r-markdown/index.en_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2020-12-01-hello-r-markdown/index.en_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: A fancy pie chart.
 &lt;/p&gt;
@@ -530,9 +530,9 @@ Figure 1: A fancy pie chart.
     
     <item>
       <title>Writing technical content in Academic</title>
-      <link>http://alperyilmaz.site/post/2019-07-12-writing-technical-content-in-academic/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2019-07-12-writing-technical-content-in-academic/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2019-07-12-writing-technical-content-in-academic/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2019-07-12-writing-technical-content-in-academic/</guid>
       <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
@@ -556,7 +556,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-674185329&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-315846927&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -566,7 +566,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-674185329&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-315846927&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -794,9 +794,9 @@ You found me!
     
     <item>
       <title>Plain Markdown</title>
-      <link>http://alperyilmaz.site/post/2019-05-07-plain-markdown/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2019-05-07-plain-markdown/</link>
       <pubDate>Tue, 07 May 2019 21:13:14 -0500</pubDate>
-      <guid>http://alperyilmaz.site/post/2019-05-07-plain-markdown/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2019-05-07-plain-markdown/</guid>
       <description>&lt;h1 id=&#34;plain-markdown&#34;&gt;Plain Markdown&lt;/h1&gt;
 &lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
@@ -829,9 +829,9 @@ You found me!
     
     <item>
       <title>Deep Learning Gene Expression</title>
-      <link>http://alperyilmaz.site/project/deep-learning-genes/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/project/deep-learning-genes/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/project/deep-learning-genes/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/project/deep-learning-genes/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -842,9 +842,9 @@ You found me!
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>http://alperyilmaz.site/publication/preprint/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/publication/preprint/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/publication/preprint/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
@@ -856,9 +856,9 @@ You found me!
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>http://alperyilmaz.site/post/2019-02-05-display-jupyter-notebooks-with-academic/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2019-02-05-display-jupyter-notebooks-with-academic/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2019-02-05-display-jupyter-notebooks-with-academic/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2019-02-05-display-jupyter-notebooks-with-academic/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
 Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
 &lt;/code&gt;&lt;/pre&gt;
@@ -920,9 +920,9 @@ date: 2019-09-01
     
     <item>
       <title>Slides</title>
-      <link>http://alperyilmaz.site/slides/example/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/slides/example/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -1049,9 +1049,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Rigorous Identification of Tissue Specific Genes in silico</title>
-      <link>http://alperyilmaz.site/publication/conference-paper/4039173/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/4039173/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/publication/conference-paper/4039173/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/4039173/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.
@@ -1062,9 +1062,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Eternal bash history</title>
-      <link>http://alperyilmaz.site/post/2016-09-27-eternal-bash-history/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2016-09-27-eternal-bash-history/</link>
       <pubDate>Tue, 27 Sep 2016 00:26:05 +0300</pubDate>
-      <guid>http://alperyilmaz.site/post/2016-09-27-eternal-bash-history/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2016-09-27-eternal-bash-history/</guid>
       <description>&lt;p&gt;After starting to use the bash, you quickly realize bash history is an invaluable asset. You can quickly search and find a previous command in order to remember when and what you have done. I was using a primitive way to archive the history with which I accumulated history of commands since 2008. The primitive setup has two parts. First part is a cron job:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;0 13 3,11,24 * *   /bin/cat ~/.bash_history &amp;gt; ~/.history_backup_`date +\%Y\%m\%d`
 &lt;/code&gt;&lt;/pre&gt;
@@ -1087,9 +1087,9 @@ oldhistory-time(){ for file in /home/alper/.history_backup_20*; do cat $file; ec
     
     <item>
       <title>List of terminals with working folder names</title>
-      <link>http://alperyilmaz.site/post/2016-09-15-list-of-terminals-with-working-folder-names/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2016-09-15-list-of-terminals-with-working-folder-names/</link>
       <pubDate>Thu, 15 Sep 2016 12:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/post/2016-09-15-list-of-terminals-with-working-folder-names/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2016-09-15-list-of-terminals-with-working-folder-names/</guid>
       <description>&lt;p&gt;From time to time, I had many terminal tabs open and wanted to see the list of terminals along with working folder names. Finally, I fed up with the issue tried to find a solution. After fiddling with some code, here&amp;rsquo;s the function that I added to &lt;code&gt;.bashrc&lt;/code&gt; file&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;tty-list() { ps aux --sort=start_time | grep &amp;quot;pts/&amp;quot; | grep [b]ash | awk -F&amp;quot; +&amp;quot; &#39;{print $2&amp;quot;\t&amp;quot;$7}&#39; | while read PID PTS; do echo -n -e &amp;quot;$PTS&amp;quot;&amp;quot;\t&amp;quot;; readlink -f /proc/$PID/cwd; done ; }
 &lt;/code&gt;&lt;/pre&gt;
@@ -1107,9 +1107,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>A combined SVM and Markov model approach for splice site identification</title>
-      <link>http://alperyilmaz.site/publication/conference-paper/3199813/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3199813/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/publication/conference-paper/3199813/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3199813/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.
@@ -1120,9 +1120,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>A novel method for splice sites prediction using sequence component and Hidden Markov model</title>
-      <link>http://alperyilmaz.site/publication/conference-paper/3199460/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3199460/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/publication/conference-paper/3199460/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3199460/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.
@@ -1133,9 +1133,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>Prediction of splice site using AdaBoost with a new sequence encoding approach</title>
-      <link>http://alperyilmaz.site/publication/conference-paper/3200051/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3200051/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/publication/conference-paper/3200051/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3200051/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.
@@ -1146,9 +1146,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>Protein engineering insights from metagenomes of diverse bacteria</title>
-      <link>http://alperyilmaz.site/publication/conference-paper/3199909/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3199909/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/publication/conference-paper/3199909/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3199909/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.
@@ -1159,9 +1159,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>Jekyll themes I want to try</title>
-      <link>http://alperyilmaz.site/post/2016-05-20-jekyll-themes-i-want-to-try/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2016-05-20-jekyll-themes-i-want-to-try/</link>
       <pubDate>Fri, 20 May 2016 01:10:57 +0300</pubDate>
-      <guid>http://alperyilmaz.site/post/2016-05-20-jekyll-themes-i-want-to-try/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2016-05-20-jekyll-themes-i-want-to-try/</guid>
       <description>&lt;p&gt;After going thru a &lt;a href=&#34;https://github.com/jekyll/jekyll/wiki/Themes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;long list of themes&lt;/a&gt;, the following themes have some or all capabilities I&amp;rsquo;d like to have in a theme:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.hossainmohdfaysal.com/hmfaysal-omega-theme/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.hossainmohdfaysal.com/hmfaysal-omega-theme/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/holman/left&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/holman/left&lt;/a&gt; might not be as pretty as &lt;a href=&#34;https://zachholman.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zachholman.com/&lt;/a&gt;&lt;/p&gt;
@@ -1178,17 +1178,17 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>External Project</title>
-      <link>http://alperyilmaz.site/project/external-project/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/project/external-project/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/project/external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internal Project</title>
-      <link>http://alperyilmaz.site/project/internal-project/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/project/internal-project/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/project/internal-project/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -1199,9 +1199,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>Metabolic Networks</title>
-      <link>http://alperyilmaz.site/project/metabolic-networks/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/project/metabolic-networks/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/project/metabolic-networks/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/project/metabolic-networks/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -1212,9 +1212,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>Word Vectors</title>
-      <link>http://alperyilmaz.site/project/word-vectors/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/project/word-vectors/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/project/word-vectors/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/project/word-vectors/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -1225,9 +1225,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>An example journal article</title>
-      <link>http://alperyilmaz.site/publication/journal-article/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/publication/journal-article/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/publication/journal-article/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -1244,9 +1244,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>Utilization of Multiple Mapped Sequences in Next Generation Sequencing Especially in Chip-Seq Experiments</title>
-      <link>http://alperyilmaz.site/publication/conference-paper/2526201/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/2526201/</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/publication/conference-paper/2526201/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/2526201/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.
@@ -1257,9 +1257,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>Transpose a matrix with perl nested map</title>
-      <link>http://alperyilmaz.site/post/2011-07-07-transpose-a-matrix-with-perl-nested-map/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2011-07-07-transpose-a-matrix-with-perl-nested-map/</link>
       <pubDate>Thu, 07 Jul 2011 09:33:37 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2011-07-07-transpose-a-matrix-with-perl-nested-map/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2011-07-07-transpose-a-matrix-with-perl-nested-map/</guid>
       <description>&lt;p&gt;Here&amp;rsquo;s the matrix that we&amp;rsquo;ll be using:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ paste &amp;lt;(seq 1 5) &amp;lt;(seq 12 16) 
 1	12
@@ -1279,9 +1279,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>Extract intervals from an array of numbers</title>
-      <link>http://alperyilmaz.site/post/2011-06-27-extract-intervals-from-an-array-of-numbers/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2011-06-27-extract-intervals-from-an-array-of-numbers/</link>
       <pubDate>Mon, 27 Jun 2011 06:58:02 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2011-06-27-extract-intervals-from-an-array-of-numbers/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2011-06-27-extract-intervals-from-an-array-of-numbers/</guid>
       <description>&lt;p&gt;Let&amp;rsquo;s assume you have an array of numbers and you want to extract intervals from this array. For example, from such an array: 2,3,4,5,8,9,10,11,12,15,18,19,20 you should be getting (2-5), (8-12), (18-20) as intervals.&lt;/p&gt;
 &lt;p&gt;More bioinformatic case: Let&amp;rsquo;s assume you ran samtools pileup format and want to extract intervals from the genomic coordinates that has at least one hit.&lt;/p&gt;
 &lt;p&gt;The following one-liner will give you what you want: (I used &lt;code&gt;seq&lt;/code&gt; to generate array of numbers and concatenated multiple seq)&lt;/p&gt;
@@ -1296,9 +1296,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>Extract upstream region sequence with bedtools</title>
-      <link>http://alperyilmaz.site/post/2011-03-06-extract-upstream-region-sequence-with-bedtools/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2011-03-06-extract-upstream-region-sequence-with-bedtools/</link>
       <pubDate>Sun, 06 Mar 2011 08:40:36 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2011-03-06-extract-upstream-region-sequence-with-bedtools/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2011-03-06-extract-upstream-region-sequence-with-bedtools/</guid>
       <description>&lt;p&gt;Soon after SAM/BAM format became standard for short-read alignment softwares, high caliber tools have been emerging that can process the widely accepted format. &lt;a href=&#34;http://code.google.com/p/bedtools/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bedtools&lt;/a&gt; is one of them and it&amp;rsquo;s easy to use and flexible. Most importantly you can integrate it with commandline pipes.&lt;/p&gt;
 &lt;p&gt;In this post, I&amp;rsquo;ll be describing how to extract upstream region sequences with the help of bedtools. I&amp;rsquo;ll be using the following files in my sample:&lt;/p&gt;
 &lt;p&gt;File1: small-chr-genes.bed (holds locations of genes)&lt;/p&gt;
@@ -1332,16 +1332,16 @@ TGATG
     
     <item>
       <title>Plot one-liner generated data with gnuplot</title>
-      <link>http://alperyilmaz.site/post/2010-10-16-plot-one-liner-generated-data-with-gnuplot/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-10-16-plot-one-liner-generated-data-with-gnuplot/</link>
       <pubDate>Sat, 16 Oct 2010 22:13:24 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-10-16-plot-one-liner-generated-data-with-gnuplot/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-10-16-plot-one-liner-generated-data-with-gnuplot/</guid>
       <description>&lt;p&gt;In this post, I&amp;rsquo;ll demonstrate how to use gnuplot in a one-liner. We&amp;rsquo;ll use the pipe but unfortunately you cannot pipe raw data to gnuplot directly (as far as I know). The piped data should contain basic gnuplot commands on top. So, we&amp;rsquo;ll use the following template:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;very-complicated-data-generating-commands | sed -e &amp;quot;1i\plot &#39;-&#39; &amp;quot; | gnuplot -persist
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;If you&amp;rsquo;re interested in quickly see how this works, try something simple:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;seq 1 10 | sed -e &amp;quot;1i\plot &#39;-&#39;&amp;quot; | gnuplot -persist
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Before sed command, you can write as complicated as possible command to generate data and inside sed command you can put long gnuplot commands to obtain graphs. Let&amp;rsquo;s see the counts of most used 20 commands from history (mentioned in an &lt;a href=&#34;http://alperyilmaz.site/post/2010-04-08-most-used-commands-in-history/&#34;&gt;earlier post&lt;/a&gt; with bar chart.&lt;/p&gt;
+&lt;p&gt;Before sed command, you can write as complicated as possible command to generate data and inside sed command you can put long gnuplot commands to obtain graphs. Let&amp;rsquo;s see the counts of most used 20 commands from history (mentioned in an &lt;a href=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-08-most-used-commands-in-history/&#34;&gt;earlier post&lt;/a&gt; with bar chart.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cat ~/.bash_history|grep -v &amp;quot;^#&amp;quot; | perl -F&amp;quot;\||&amp;lt;\(|;|\`|\\$\(&amp;quot; -alne &#39;foreach (@F) { print $1 if /^.*?(\w+)\b/i }&#39; | sort | uniq -c | sort -nr | head -20 | awk &#39;{print $2&amp;quot;\t&amp;quot;$1}&#39; | sed -e &amp;quot;1i\set boxwidth 0.5\nset style fill solid noborder\nset xtics nomirror rotate by -60\nset format x &#39;-%s&#39;\nplot &#39;-&#39; using 2:xticlabels(1) with boxes notitle&amp;quot; | gnuplot -persist
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Resulting image looks like this:&lt;/p&gt;
@@ -1363,7 +1363,7 @@ TGATG
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://alperyilmaz.site/img/history-top-occur-graph550x350.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/img/history-top-occur-graph550x350.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;If you want to save the output in png format, what you do is simply add the command &lt;code&gt;set term png size 600,300&lt;/code&gt; to your one-liner. I chose width 600px and height 300px as example. In this case, gnuplot prints the contents of png file to screen, so we need to direct it to a filename, as shown below:&lt;/p&gt;
@@ -1374,9 +1374,9 @@ TGATG
     
     <item>
       <title>perl one-liner to pick random sequences from fasta file</title>
-      <link>http://alperyilmaz.site/post/2010-07-15-perl-one-liner-to-pick-random-sequences-from-fasta-file/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-07-15-perl-one-liner-to-pick-random-sequences-from-fasta-file/</link>
       <pubDate>Thu, 15 Jul 2010 08:03:53 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-07-15-perl-one-liner-to-pick-random-sequences-from-fasta-file/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-07-15-perl-one-liner-to-pick-random-sequences-from-fasta-file/</guid>
       <description>&lt;p&gt;In an earlier [post]({{ ref &amp;ldquo;post/perl-one-liner-to-process-sequence-files-in-stream.md&amp;rdquo; }}) we learned how to use Bio::SeqIO module to process fasta files with one-liner. Let&amp;rsquo;s do more with this capability. What about selecting random sequences from a fasta file?&lt;/p&gt;
 &lt;p&gt;To achieve that, we&amp;rsquo;ll load the fasta file contents into a hash and then utilize the fact that &lt;code&gt;rand(@array)&lt;/code&gt; returns index of a random element from that array.&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s pick 100 random sequences from a fasta file with one-liner:&lt;/p&gt;
@@ -1388,9 +1388,9 @@ TGATG
     
     <item>
       <title>Way more practical one-liners with perl5i</title>
-      <link>http://alperyilmaz.site/post/2010-04-26-way-more-practical-one-liners-with-perl5i/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-26-way-more-practical-one-liners-with-perl5i/</link>
       <pubDate>Mon, 26 Apr 2010 23:48:05 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-04-26-way-more-practical-one-liners-with-perl5i/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-26-way-more-practical-one-liners-with-perl5i/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://search.cpan.org/dist/perl5i/lib/perl5i.pm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;perl5i&lt;/a&gt; project explains itself as &amp;ldquo;Perl 5 has a lot of warts, fix as much of it as possible in one pragma&amp;rdquo;. You can run your scripts with it by including perl5i (ie, use perl5i;). Best part is, it can be run at commandline with &lt;code&gt;$ perl5i -e&lt;/code&gt; .&lt;/p&gt;
 &lt;p&gt;perl5i includes &lt;a href=&#34;http://search.cpan.org/~swalters/autobox-Core-1.2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Autobox module&lt;/a&gt; which lets you call methods on primitive datatypes such as scalars and arrays (eg. &amp;ldquo;hello world&amp;rdquo;-&amp;gt;print). This feature allows constructing very compact one-liners as shown below:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl5i -e &#39;my @arr = ( 1 .. 10 ); @arr-&amp;gt;map(sub {$_ ** 4 })-&amp;gt;grep(sub { $_ &amp;gt; 3 })-&amp;gt;sum-&amp;gt;say&#39;
@@ -1407,9 +1407,9 @@ TGATG
     
     <item>
       <title>gnuplot boxerror, barchart with error bars</title>
-      <link>http://alperyilmaz.site/post/2010-04-14-gnuplot-boxerror-barchart-with-error-bars/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-14-gnuplot-boxerror-barchart-with-error-bars/</link>
       <pubDate>Wed, 14 Apr 2010 14:31:26 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-04-14-gnuplot-boxerror-barchart-with-error-bars/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-14-gnuplot-boxerror-barchart-with-error-bars/</guid>
       <description>&lt;p&gt;When I was trying to generate an image containing scatter-plot and a barchart with error bars, I got stuck with barchart part. There were no demos or samples that produces the desired output. So, I ended up figuring it out myself.&lt;/p&gt;
 &lt;p&gt;Below is the gnuplot code, data sample and the output.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-gnuplot&#34;&gt;set term png size 500,400
@@ -1445,7 +1445,7 @@ plot &amp;quot;boxerror-test.data&amp;quot; using 1:2:3:xticlabels(4) w boxerror
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://alperyilmaz.site/img/boxerror-test.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/img/boxerror-test.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Ideally, I was trying to plot the following data:&lt;/p&gt;
@@ -1461,9 +1461,9 @@ D       12      0.5
     
     <item>
       <title>Most used commands in history</title>
-      <link>http://alperyilmaz.site/post/2010-04-08-most-used-commands-in-history/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-08-most-used-commands-in-history/</link>
       <pubDate>Thu, 08 Apr 2010 09:11:53 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-04-08-most-used-commands-in-history/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-08-most-used-commands-in-history/</guid>
       <description>&lt;p&gt;Most of the &amp;ldquo;most used commands&amp;rdquo; approaches does not consider pipes and other complexities.&lt;/p&gt;
 &lt;p&gt;This approach considers pipes, process substitution by backticks or &lt;code&gt;$()&lt;/code&gt; and multiple commands separated by &lt;code&gt;;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Perl regular expression breaks up each line using &lt;code&gt;|&lt;/code&gt; or &lt;code&gt;&amp;lt;(&lt;/code&gt; or &lt;code&gt;;&lt;/code&gt; or ` or &lt;code&gt;$(&lt;/code&gt; and picks the first word (excluding &amp;ldquo;do&amp;rdquo; in case of for loops)&lt;/p&gt;
@@ -1483,25 +1483,25 @@ D       12      0.5
     
     <item>
       <title>Visualize Circos images with Seadragon</title>
-      <link>http://alperyilmaz.site/post/2010-04-02-visualize-circos-images-with-seadragon/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-02-visualize-circos-images-with-seadragon/</link>
       <pubDate>Fri, 02 Apr 2010 16:34:41 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-04-02-visualize-circos-images-with-seadragon/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-02-visualize-circos-images-with-seadragon/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://mkweb.bcgsc.ca/circos/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Circos&lt;/a&gt; is a very powerful tool to visualize different types of data (expression, homology, etc) in circular fashion.&lt;/p&gt;
 &lt;p&gt;The software is capable of producing very large images if desired, suitable for posters.&lt;/p&gt;
 &lt;p&gt;Actually, we can create large images for viewing online, since it&amp;rsquo;s trivial to view them with Seadragon.&lt;/p&gt;
 &lt;p&gt;Below is an example from Circos tutorial (I modified the config file to obtain large image) (&lt;em&gt;EDIT: Since the seadragon page was very slow to respond, I just included the embed URL&lt;/em&gt;S)&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;script src=&amp;quot;http://seadragon.com/embed/yhz.js?width=auto&amp;amp;height=400px&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Original image is located &lt;a href=&#34;http://alperyilmaz.site/img/circos-tutorial-huge.png&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Original image is located &lt;a href=&#34;https://alpeyilmaz.github.io/blogdown-hugo/img/circos-tutorial-huge.png&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;PS: Author of Circos, Martin Krzywinski has more interesting software listed in &lt;a href=&#34;http://mkweb.bcgsc.ca/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;his page&lt;/a&gt;. And his lecture notes on &lt;a href=&#34;http://mkweb.bcgsc.ca/perlworkshop/index.mhtml?code=2.1.2.4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data Mining and Analysis at the Command Line&lt;/a&gt; is worth checking.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>One line statistics</title>
-      <link>http://alperyilmaz.site/post/2010-04-02-one-line-statistics/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-02-one-line-statistics/</link>
       <pubDate>Fri, 02 Apr 2010 13:05:52 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-04-02-one-line-statistics/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-02-one-line-statistics/</guid>
       <description>&lt;p&gt;Let&amp;rsquo;s assume we have a file with five columns where first column is text and rest of the columns are numeric. How can we calculate the standard deviation (or other statistical functions) with a perl one-liner?&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;ll use &lt;a href=&#34;http://search.cpan.org/~shlomif/Statistics-Descriptive-3.0100/lib/Statistics/Descriptive.pm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Statistics::Descriptive&lt;/a&gt; module.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -MStatistics::Descriptive -ane &#39;BEGIN{our $stat = Statistics::Descriptive::Full-&amp;gt;new}; $stat-&amp;gt;add_data(@F[1..4]); print $stat-&amp;gt;standard_deviation,&amp;quot;\n&amp;quot;; $stat-&amp;gt;clear&#39; filename
@@ -1512,9 +1512,9 @@ D       12      0.5
     
     <item>
       <title>View large images with Seadragon in personal pages</title>
-      <link>http://alperyilmaz.site/post/2010-04-01-view-large-images-with-seadragon-in-personal-pages/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-01-view-large-images-with-seadragon-in-personal-pages/</link>
       <pubDate>Thu, 01 Apr 2010 03:50:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-04-01-view-large-images-with-seadragon-in-personal-pages/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-01-view-large-images-with-seadragon-in-personal-pages/</guid>
       <description>&lt;p&gt;Maybe you already watched the video regarding Seadragon given at TED (sorry only low resolution version was available)&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -1535,9 +1535,9 @@ D       12      0.5
     
     <item>
       <title>perl one-liner to process sequence files in stream</title>
-      <link>http://alperyilmaz.site/post/2010-04-01-perl-one-liner-to-process-sequence-files-in-stream/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-01-perl-one-liner-to-process-sequence-files-in-stream/</link>
       <pubDate>Thu, 01 Apr 2010 02:43:57 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-04-01-perl-one-liner-to-process-sequence-files-in-stream/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-01-perl-one-liner-to-process-sequence-files-in-stream/</guid>
       <description>&lt;p&gt;Need a practical way to process fasta files with Bio::SeqIO module ? Below code will print sequence id and sequence length with tab per line.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN);while ($myseq=$seq-&amp;gt;next_seq){print $myseq-&amp;gt;id,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;length,&amp;quot;\n&amp;quot;;}&#39; &amp;lt; filename 
 &lt;/code&gt;&lt;/pre&gt;
@@ -1557,9 +1557,9 @@ D       12      0.5
     
     <item>
       <title>Top ten occurrences with perl one-liner</title>
-      <link>http://alperyilmaz.site/post/2010-03-30-top-ten-occurrences-with-perl-one-liner/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-03-30-top-ten-occurrences-with-perl-one-liner/</link>
       <pubDate>Tue, 30 Mar 2010 13:56:19 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-03-30-top-ten-occurrences-with-perl-one-liner/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-03-30-top-ten-occurrences-with-perl-one-liner/</guid>
       <description>&lt;p&gt;Very nice perl one-liner using map, sort and array range to show top ten occurrences&lt;/p&gt;
 &lt;p&gt;Taken from &lt;a href=&#34;http://www.sakana.fr/blog/2010/03/02/perl-counting-occurences-of-ip-addresses-in-apache-logs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tech@Sakana blog&lt;/a&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -ane &#39;$c{$F[0]}++; END {print map {$_ . &amp;quot;\t-&amp;gt;\t&amp;quot; . $c{$_} . &amp;quot;\n&amp;quot;} (sort {$c{$b} &amp;lt;=&amp;gt; $c{$a}} keys %c)[0..9]}&#39; filename
@@ -1573,9 +1573,9 @@ D       12      0.5
     
     <item>
       <title>perl one-liner to change table layout with Hash-of-Hash-of-Array</title>
-      <link>http://alperyilmaz.site/post/2010-03-25-perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-03-25-perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array/</link>
       <pubDate>Thu, 25 Mar 2010 01:42:53 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-03-25-perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-03-25-perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array/</guid>
       <description>&lt;p&gt;I really like one-liners which can do a lot in a single line.. I wanted to share one I just used to arrange a big table.&lt;/p&gt;
 &lt;p&gt;In the list of proteins below, only two proteins are shown, one protein has multiple attributes for 4 categories (InterPro, Cellular Component, Biological Process and Molecular Function). The other thing to notice is that, not all proteins have to have all the attributes, for instance, one protein might miss BiologicalProcess attribute.&lt;/p&gt;
 &lt;table style=&#34;border-collapse: collapse;&#34; border=&#34;1&#34; cellpadding=&#34;2&#34; cellspacing=&#34;2&#34;&gt;
@@ -1787,9 +1787,9 @@ D       12      0.5
     
     <item>
       <title>bash completion for scp</title>
-      <link>http://alperyilmaz.site/post/2010-03-10-bash-completion-for-scp/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-03-10-bash-completion-for-scp/</link>
       <pubDate>Wed, 10 Mar 2010 16:30:03 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-03-10-bash-completion-for-scp/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-03-10-bash-completion-for-scp/</guid>
       <description>&lt;p&gt;I have been looking for a solution for broken bash_completion for scp command. I was thinking my ssh was not configured correctly for password-less login. But I just found out that bash completion is broken for Ubuntu 9.10.&lt;/p&gt;
 &lt;p&gt;If you are suffering from same symptom, please read &lt;a href=&#34;http://pro.grammatic.org/post-fixing-scp-completion-in-ubuntu-910-73.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this article&lt;/a&gt; for fix.&lt;/p&gt;
 </description>
@@ -1797,9 +1797,9 @@ D       12      0.5
     
     <item>
       <title>Retrieve WP categories from commandline</title>
-      <link>http://alperyilmaz.site/post/2010-01-13-retrieve-wp-categories-from-commandline/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-01-13-retrieve-wp-categories-from-commandline/</link>
       <pubDate>Wed, 13 Jan 2010 19:08:15 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-01-13-retrieve-wp-categories-from-commandline/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-01-13-retrieve-wp-categories-from-commandline/</guid>
       <description>&lt;p&gt;Posting to WP from commandline is great. Before I post it, I need to lookup available categories so that I can categorize the new post correctly. To prevent a visit to WP admin GUI, I used the same Perl module for posting to retrieve available categories. Below is the code. I hope it helps you too..&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;use WordPress::XMLRPC;
 my $o = WordPress::XMLRPC-&amp;gt;new({
@@ -1822,17 +1822,17 @@ foreach (0..scalar(@$categories)) {
     
     <item>
       <title></title>
-      <link>http://alperyilmaz.site/admin/config.yml</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/admin/config.yml</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/admin/config.yml</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>http://alperyilmaz.site/people/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/people/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/people/</guid>
       <description></description>
     </item>
     

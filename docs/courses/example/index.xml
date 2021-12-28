@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>📊 Learn Data Science | Assoc.Prof.Dr. Alper YILMAZ</title>
-    <link>http://alperyilmaz.site/courses/example/</link>
-      <atom:link href="http://alperyilmaz.site/courses/example/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/</link>
+      <atom:link href="https://alpeyilmaz.github.io/blogdown-hugo/courses/example/index.xml" rel="self" type="application/rss+xml" />
     <description>📊 Learn Data Science</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://alperyilmaz.site/courses/example/featured.jpg</url>
+      <url>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/featured.jpg</url>
       <title>📊 Learn Data Science</title>
-      <link>http://alperyilmaz.site/courses/example/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/</link>
     </image>
     
     <item>
       <title>Python basics</title>
-      <link>http://alperyilmaz.site/courses/example/python/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/python/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/courses/example/python/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/python/</guid>
       <description>&lt;p&gt;Build a foundation in Python.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
@@ -51,9 +51,9 @@
     
     <item>
       <title>Visualization</title>
-      <link>http://alperyilmaz.site/courses/example/visualization/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/visualization/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/courses/example/visualization/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/visualization/</guid>
       <description>&lt;p&gt;Learn how to visualize data with Plotly.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
@@ -81,9 +81,9 @@ fig.show()
     
     <item>
       <title>Statistics</title>
-      <link>http://alperyilmaz.site/courses/example/stats/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/stats/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/courses/example/stats/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/stats/</guid>
       <description>&lt;p&gt;Introduction to statistics for data science.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;

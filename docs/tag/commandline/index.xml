@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>commandline | Assoc.Prof.Dr. Alper YILMAZ</title>
-    <link>http://alperyilmaz.site/tag/commandline/</link>
-      <atom:link href="http://alperyilmaz.site/tag/commandline/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alpeyilmaz.github.io/blogdown-hugo/tag/commandline/</link>
+      <atom:link href="https://alpeyilmaz.github.io/blogdown-hugo/tag/commandline/index.xml" rel="self" type="application/rss+xml" />
     <description>commandline</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Tue, 27 Sep 2016 00:26:05 +0300</lastBuildDate>
     <image>
-      <url>http://alperyilmaz.site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://alpeyilmaz.github.io/blogdown-hugo/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>commandline</title>
-      <link>http://alperyilmaz.site/tag/commandline/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/tag/commandline/</link>
     </image>
     
     <item>
       <title>Eternal bash history</title>
-      <link>http://alperyilmaz.site/post/2016-09-27-eternal-bash-history/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2016-09-27-eternal-bash-history/</link>
       <pubDate>Tue, 27 Sep 2016 00:26:05 +0300</pubDate>
-      <guid>http://alperyilmaz.site/post/2016-09-27-eternal-bash-history/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2016-09-27-eternal-bash-history/</guid>
       <description>&lt;p&gt;After starting to use the bash, you quickly realize bash history is an invaluable asset. You can quickly search and find a previous command in order to remember when and what you have done. I was using a primitive way to archive the history with which I accumulated history of commands since 2008. The primitive setup has two parts. First part is a cron job:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;0 13 3,11,24 * *   /bin/cat ~/.bash_history &amp;gt; ~/.history_backup_`date +\%Y\%m\%d`
 &lt;/code&gt;&lt;/pre&gt;
@@ -39,9 +39,9 @@ oldhistory-time(){ for file in /home/alper/.history_backup_20*; do cat $file; ec
     
     <item>
       <title>List of terminals with working folder names</title>
-      <link>http://alperyilmaz.site/post/2016-09-15-list-of-terminals-with-working-folder-names/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2016-09-15-list-of-terminals-with-working-folder-names/</link>
       <pubDate>Thu, 15 Sep 2016 12:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/post/2016-09-15-list-of-terminals-with-working-folder-names/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2016-09-15-list-of-terminals-with-working-folder-names/</guid>
       <description>&lt;p&gt;From time to time, I had many terminal tabs open and wanted to see the list of terminals along with working folder names. Finally, I fed up with the issue tried to find a solution. After fiddling with some code, here&amp;rsquo;s the function that I added to &lt;code&gt;.bashrc&lt;/code&gt; file&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;tty-list() { ps aux --sort=start_time | grep &amp;quot;pts/&amp;quot; | grep [b]ash | awk -F&amp;quot; +&amp;quot; &#39;{print $2&amp;quot;\t&amp;quot;$7}&#39; | while read PID PTS; do echo -n -e &amp;quot;$PTS&amp;quot;&amp;quot;\t&amp;quot;; readlink -f /proc/$PID/cwd; done ; }
 &lt;/code&gt;&lt;/pre&gt;
@@ -59,9 +59,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>Transpose a matrix with perl nested map</title>
-      <link>http://alperyilmaz.site/post/2011-07-07-transpose-a-matrix-with-perl-nested-map/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2011-07-07-transpose-a-matrix-with-perl-nested-map/</link>
       <pubDate>Thu, 07 Jul 2011 09:33:37 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2011-07-07-transpose-a-matrix-with-perl-nested-map/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2011-07-07-transpose-a-matrix-with-perl-nested-map/</guid>
       <description>&lt;p&gt;Here&amp;rsquo;s the matrix that we&amp;rsquo;ll be using:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ paste &amp;lt;(seq 1 5) &amp;lt;(seq 12 16) 
 1	12
@@ -81,9 +81,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>Extract intervals from an array of numbers</title>
-      <link>http://alperyilmaz.site/post/2011-06-27-extract-intervals-from-an-array-of-numbers/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2011-06-27-extract-intervals-from-an-array-of-numbers/</link>
       <pubDate>Mon, 27 Jun 2011 06:58:02 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2011-06-27-extract-intervals-from-an-array-of-numbers/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2011-06-27-extract-intervals-from-an-array-of-numbers/</guid>
       <description>&lt;p&gt;Let&amp;rsquo;s assume you have an array of numbers and you want to extract intervals from this array. For example, from such an array: 2,3,4,5,8,9,10,11,12,15,18,19,20 you should be getting (2-5), (8-12), (18-20) as intervals.&lt;/p&gt;
 &lt;p&gt;More bioinformatic case: Let&amp;rsquo;s assume you ran samtools pileup format and want to extract intervals from the genomic coordinates that has at least one hit.&lt;/p&gt;
 &lt;p&gt;The following one-liner will give you what you want: (I used &lt;code&gt;seq&lt;/code&gt; to generate array of numbers and concatenated multiple seq)&lt;/p&gt;
@@ -98,16 +98,16 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>Plot one-liner generated data with gnuplot</title>
-      <link>http://alperyilmaz.site/post/2010-10-16-plot-one-liner-generated-data-with-gnuplot/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-10-16-plot-one-liner-generated-data-with-gnuplot/</link>
       <pubDate>Sat, 16 Oct 2010 22:13:24 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-10-16-plot-one-liner-generated-data-with-gnuplot/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-10-16-plot-one-liner-generated-data-with-gnuplot/</guid>
       <description>&lt;p&gt;In this post, I&amp;rsquo;ll demonstrate how to use gnuplot in a one-liner. We&amp;rsquo;ll use the pipe but unfortunately you cannot pipe raw data to gnuplot directly (as far as I know). The piped data should contain basic gnuplot commands on top. So, we&amp;rsquo;ll use the following template:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;very-complicated-data-generating-commands | sed -e &amp;quot;1i\plot &#39;-&#39; &amp;quot; | gnuplot -persist
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;If you&amp;rsquo;re interested in quickly see how this works, try something simple:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;seq 1 10 | sed -e &amp;quot;1i\plot &#39;-&#39;&amp;quot; | gnuplot -persist
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Before sed command, you can write as complicated as possible command to generate data and inside sed command you can put long gnuplot commands to obtain graphs. Let&amp;rsquo;s see the counts of most used 20 commands from history (mentioned in an &lt;a href=&#34;http://alperyilmaz.site/post/2010-04-08-most-used-commands-in-history/&#34;&gt;earlier post&lt;/a&gt; with bar chart.&lt;/p&gt;
+&lt;p&gt;Before sed command, you can write as complicated as possible command to generate data and inside sed command you can put long gnuplot commands to obtain graphs. Let&amp;rsquo;s see the counts of most used 20 commands from history (mentioned in an &lt;a href=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2010-04-08-most-used-commands-in-history/&#34;&gt;earlier post&lt;/a&gt; with bar chart.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cat ~/.bash_history|grep -v &amp;quot;^#&amp;quot; | perl -F&amp;quot;\||&amp;lt;\(|;|\`|\\$\(&amp;quot; -alne &#39;foreach (@F) { print $1 if /^.*?(\w+)\b/i }&#39; | sort | uniq -c | sort -nr | head -20 | awk &#39;{print $2&amp;quot;\t&amp;quot;$1}&#39; | sed -e &amp;quot;1i\set boxwidth 0.5\nset style fill solid noborder\nset xtics nomirror rotate by -60\nset format x &#39;-%s&#39;\nplot &#39;-&#39; using 2:xticlabels(1) with boxes notitle&amp;quot; | gnuplot -persist
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Resulting image looks like this:&lt;/p&gt;
@@ -129,7 +129,7 @@ pts/9   /home/alper/Documents/blog-github/website
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://alperyilmaz.site/img/history-top-occur-graph550x350.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/img/history-top-occur-graph550x350.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;If you want to save the output in png format, what you do is simply add the command &lt;code&gt;set term png size 600,300&lt;/code&gt; to your one-liner. I chose width 600px and height 300px as example. In this case, gnuplot prints the contents of png file to screen, so we need to direct it to a filename, as shown below:&lt;/p&gt;
@@ -140,9 +140,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>bash completion for scp</title>
-      <link>http://alperyilmaz.site/post/2010-03-10-bash-completion-for-scp/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-03-10-bash-completion-for-scp/</link>
       <pubDate>Wed, 10 Mar 2010 16:30:03 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-03-10-bash-completion-for-scp/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-03-10-bash-completion-for-scp/</guid>
       <description>&lt;p&gt;I have been looking for a solution for broken bash_completion for scp command. I was thinking my ssh was not configured correctly for password-less login. But I just found out that bash completion is broken for Ubuntu 9.10.&lt;/p&gt;
 &lt;p&gt;If you are suffering from same symptom, please read &lt;a href=&#34;http://pro.grammatic.org/post-fixing-scp-completion-in-ubuntu-910-73.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this article&lt;/a&gt; for fix.&lt;/p&gt;
 </description>
@@ -150,9 +150,9 @@ pts/9   /home/alper/Documents/blog-github/website
     
     <item>
       <title>Retrieve WP categories from commandline</title>
-      <link>http://alperyilmaz.site/post/2010-01-13-retrieve-wp-categories-from-commandline/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-01-13-retrieve-wp-categories-from-commandline/</link>
       <pubDate>Wed, 13 Jan 2010 19:08:15 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2010-01-13-retrieve-wp-categories-from-commandline/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2010-01-13-retrieve-wp-categories-from-commandline/</guid>
       <description>&lt;p&gt;Posting to WP from commandline is great. Before I post it, I need to lookup available categories so that I can categorize the new post correctly. To prevent a visit to WP admin GUI, I used the same Perl module for posting to retrieve available categories. Below is the code. I hope it helps you too..&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;use WordPress::XMLRPC;
 my $o = WordPress::XMLRPC-&amp;gt;new({

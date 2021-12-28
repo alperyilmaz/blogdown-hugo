@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Assoc.Prof.Dr. Alper YILMAZ</title>
-    <link>http://alperyilmaz.site/authors/</link>
-      <atom:link href="http://alperyilmaz.site/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alpeyilmaz.github.io/blogdown-hugo/authors/</link>
+      <atom:link href="https://alpeyilmaz.github.io/blogdown-hugo/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Mon, 27 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://alperyilmaz.site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://alpeyilmaz.github.io/blogdown-hugo/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Authors</title>
-      <link>http://alperyilmaz.site/authors/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/authors/</link>
     </image>
     
   </channel>

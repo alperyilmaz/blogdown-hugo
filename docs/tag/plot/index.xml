@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>plot | Assoc.Prof.Dr. Alper YILMAZ</title>
-    <link>http://alperyilmaz.site/tag/plot/</link>
-      <atom:link href="http://alperyilmaz.site/tag/plot/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alpeyilmaz.github.io/blogdown-hugo/tag/plot/</link>
+      <atom:link href="https://alpeyilmaz.github.io/blogdown-hugo/tag/plot/index.xml" rel="self" type="application/rss+xml" />
     <description>plot</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://alperyilmaz.site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://alpeyilmaz.github.io/blogdown-hugo/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>plot</title>
-      <link>http://alperyilmaz.site/tag/plot/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/tag/plot/</link>
     </image>
     
     <item>
       <title>COVID visuals - daily new cases per million</title>
-      <link>http://alperyilmaz.site/post/2021-12-26-covid-visuals/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/</link>
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/post/2021-12-26-covid-visuals/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/</guid>
       <description>
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;load-libraries&#34; class=&#34;section level1&#34;&gt;
@@ -151,7 +151,7 @@ p &amp;lt;- initial %&amp;gt;%
   geom_line()
 
 p&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;1080&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;1080&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The plot is too rugged. Let’s do weekly average by using excellent &lt;code&gt;slider::slide&lt;/code&gt; function (instead of &lt;code&gt;zoo::rollmean&lt;/code&gt;)&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;initial %&amp;gt;%
   filter(country_region %in% select_countries) %&amp;gt;%
@@ -171,7 +171,7 @@ p&lt;/code&gt;&lt;/pre&gt;
   geom_line() -&amp;gt; p2
 
 p2&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://alperyilmaz.site/post/2021-12-26-covid-visuals/index.en_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;1440&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2021-12-26-covid-visuals/index.en_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;1440&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;using &lt;code&gt;plotly&lt;/code&gt; package, we can have interactive results by issuing &lt;code&gt;ggplotly(p)&lt;/code&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(plotly)
 
@@ -185,11 +185,11 @@ ggplotly(p2) &lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Hello R Markdown</title>
-      <link>http://alperyilmaz.site/post/2020-12-01-hello-r-markdown/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2020-12-01-hello-r-markdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      <guid>http://alperyilmaz.site/post/2020-12-01-hello-r-markdown/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2020-12-01-hello-r-markdown/</guid>
       <description>
-&lt;script src=&#34;http://alperyilmaz.site/post/2020-12-01-hello-r-markdown/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2020-12-01-hello-r-markdown/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
@@ -225,7 +225,7 @@ pie(
   init.angle = -50, border = NA
 )&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://alperyilmaz.site/post/2020-12-01-hello-r-markdown/index.en_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/post/2020-12-01-hello-r-markdown/index.en_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: A fancy pie chart.
 &lt;/p&gt;

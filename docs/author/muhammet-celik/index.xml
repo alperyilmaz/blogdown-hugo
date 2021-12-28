@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Muhammet Celik | Assoc.Prof.Dr. Alper YILMAZ</title>
-    <link>http://alperyilmaz.site/author/muhammet-celik/</link>
-      <atom:link href="http://alperyilmaz.site/author/muhammet-celik/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alpeyilmaz.github.io/blogdown-hugo/author/muhammet-celik/</link>
+      <atom:link href="https://alpeyilmaz.github.io/blogdown-hugo/author/muhammet-celik/index.xml" rel="self" type="application/rss+xml" />
     <description>Muhammet Celik</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright>
     <image>
-      <url>http://alperyilmaz.site/author/muhammet-celik/avatar_hud16c2f74a89e7af07591452e6dfd43e9_2758_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://alpeyilmaz.github.io/blogdown-hugo/author/muhammet-celik/avatar_hud16c2f74a89e7af07591452e6dfd43e9_2758_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Muhammet Celik</title>
-      <link>http://alperyilmaz.site/author/muhammet-celik/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/author/muhammet-celik/</link>
     </image>
     
   </channel>

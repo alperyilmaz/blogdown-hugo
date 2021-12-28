@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Assoc.Prof.Dr. Alper YILMAZ</title>
-    <link>http://alperyilmaz.site/project/</link>
-      <atom:link href="http://alperyilmaz.site/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alpeyilmaz.github.io/blogdown-hugo/project/</link>
+      <atom:link href="https://alpeyilmaz.github.io/blogdown-hugo/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0300</lastBuildDate>
     <image>
-      <url>http://alperyilmaz.site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://alpeyilmaz.github.io/blogdown-hugo/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>http://alperyilmaz.site/project/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/project/</link>
     </image>
     
     <item>
       <title>Secondary Metabolite Retrosynthesis</title>
-      <link>http://alperyilmaz.site/project/secondary-metabolite-retrosynthesis/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/project/secondary-metabolite-retrosynthesis/</link>
       <pubDate>Fri, 17 Dec 2021 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/project/secondary-metabolite-retrosynthesis/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/project/secondary-metabolite-retrosynthesis/</guid>
       <description>&lt;p&gt;Plant secondary metabolites constitute a useful array of natural ingredients especially for therapeutics and additives for the food industry and many other industrial fields. Thereby, metabolic engineers are looking for alternative strategies that may be more efficient for the enhancement of valuable secondary metabolite production quality and quantity. However, the knowledge of production pathways and related enzymes of secondary metabolites is quite scarce. Therefore, discovery of these unknown pathway elements becomes more of an issue.&lt;/p&gt;
 &lt;p&gt;
 
@@ -37,10 +37,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;step1&#34; srcset=&#34;
-               /project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_62bc70c464bc33422af245cac55db8ae.png 400w,
-               /project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_2abe7732d53e4e7c517ae28e05125abe.png 760w,
-               /project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;http://alperyilmaz.site/project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_62bc70c464bc33422af245cac55db8ae.png&#34;
+               /blogdown-hugo/project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_62bc70c464bc33422af245cac55db8ae.png 400w,
+               /blogdown-hugo/project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_2abe7732d53e4e7c517ae28e05125abe.png 760w,
+               /blogdown-hugo/project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/blogdown-hugo/project/secondary-metabolite-retrosynthesis/step1_hu018395503c50aa8190312a20bea50f57_498503_62bc70c464bc33422af245cac55db8ae.png&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -66,10 +66,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;step2&#34; srcset=&#34;
-               /project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_06b9aac2515e1f92f927aec4bde3a145.png 400w,
-               /project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_fe068bf25814d87342ce191e0cc06e9f.png 760w,
-               /project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;http://alperyilmaz.site/project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_06b9aac2515e1f92f927aec4bde3a145.png&#34;
+               /blogdown-hugo/project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_06b9aac2515e1f92f927aec4bde3a145.png 400w,
+               /blogdown-hugo/project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_fe068bf25814d87342ce191e0cc06e9f.png 760w,
+               /blogdown-hugo/project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://alpeyilmaz.github.io/blogdown-hugo/blogdown-hugo/project/secondary-metabolite-retrosynthesis/step2_hud2e5db3065b852c034c2e36ad1fe5fca_190896_06b9aac2515e1f92f927aec4bde3a145.png&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -80,17 +80,17 @@
     
     <item>
       <title>Tissue Specific Gene Expression</title>
-      <link>http://alperyilmaz.site/project/tissue-specific-gene-expression/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/project/tissue-specific-gene-expression/</link>
       <pubDate>Fri, 17 Dec 2021 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/project/tissue-specific-gene-expression/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/project/tissue-specific-gene-expression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep Learning Gene Expression</title>
-      <link>http://alperyilmaz.site/project/deep-learning-genes/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/project/deep-learning-genes/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/project/deep-learning-genes/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/project/deep-learning-genes/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -101,17 +101,17 @@
     
     <item>
       <title>External Project</title>
-      <link>http://alperyilmaz.site/project/external-project/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/project/external-project/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/project/external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internal Project</title>
-      <link>http://alperyilmaz.site/project/internal-project/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://alperyilmaz.site/project/internal-project/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/project/internal-project/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -122,9 +122,9 @@
     
     <item>
       <title>Metabolic Networks</title>
-      <link>http://alperyilmaz.site/project/metabolic-networks/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/project/metabolic-networks/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/project/metabolic-networks/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/project/metabolic-networks/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -135,9 +135,9 @@
     
     <item>
       <title>Word Vectors</title>
-      <link>http://alperyilmaz.site/project/word-vectors/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/project/word-vectors/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/project/word-vectors/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/project/word-vectors/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hatice Busra Konuk | Assoc.Prof.Dr. Alper YILMAZ</title>
-    <link>http://alperyilmaz.site/author/hatice-busra-konuk/</link>
-      <atom:link href="http://alperyilmaz.site/author/hatice-busra-konuk/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alpeyilmaz.github.io/blogdown-hugo/author/hatice-busra-konuk/</link>
+      <atom:link href="https://alpeyilmaz.github.io/blogdown-hugo/author/hatice-busra-konuk/index.xml" rel="self" type="application/rss+xml" />
     <description>Hatice Busra Konuk</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0300</lastBuildDate>
     <image>
-      <url>http://alperyilmaz.site/author/hatice-busra-konuk/avatar_hud7931f832264c2b3e7e8897d7f26897d_1557_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://alpeyilmaz.github.io/blogdown-hugo/author/hatice-busra-konuk/avatar_hud7931f832264c2b3e7e8897d7f26897d_1557_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Hatice Busra Konuk</title>
-      <link>http://alperyilmaz.site/author/hatice-busra-konuk/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/author/hatice-busra-konuk/</link>
     </image>
     
     <item>
       <title>Rigorous Identification of Tissue Specific Genes in silico</title>
-      <link>http://alperyilmaz.site/publication/conference-paper/4039173/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/4039173/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/publication/conference-paper/4039173/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/4039173/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.

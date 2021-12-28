@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 | Assoc.Prof.Dr. Alper YILMAZ</title>
-    <link>http://alperyilmaz.site/publication-type/1/</link>
-      <atom:link href="http://alperyilmaz.site/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alpeyilmaz.github.io/blogdown-hugo/publication-type/1/</link>
+      <atom:link href="https://alpeyilmaz.github.io/blogdown-hugo/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0300</lastBuildDate>
     <image>
-      <url>http://alperyilmaz.site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://alpeyilmaz.github.io/blogdown-hugo/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
-      <link>http://alperyilmaz.site/publication-type/1/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication-type/1/</link>
     </image>
     
     <item>
       <title>Rigorous Identification of Tissue Specific Genes in silico</title>
-      <link>http://alperyilmaz.site/publication/conference-paper/4039173/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/4039173/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/publication/conference-paper/4039173/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/4039173/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.
@@ -27,9 +27,9 @@
     
     <item>
       <title>A combined SVM and Markov model approach for splice site identification</title>
-      <link>http://alperyilmaz.site/publication/conference-paper/3199813/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3199813/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/publication/conference-paper/3199813/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3199813/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.
@@ -40,9 +40,9 @@
     
     <item>
       <title>A novel method for splice sites prediction using sequence component and Hidden Markov model</title>
-      <link>http://alperyilmaz.site/publication/conference-paper/3199460/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3199460/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/publication/conference-paper/3199460/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3199460/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.
@@ -53,9 +53,9 @@
     
     <item>
       <title>Prediction of splice site using AdaBoost with a new sequence encoding approach</title>
-      <link>http://alperyilmaz.site/publication/conference-paper/3200051/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3200051/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/publication/conference-paper/3200051/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3200051/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.
@@ -66,9 +66,9 @@
     
     <item>
       <title>Protein engineering insights from metagenomes of diverse bacteria</title>
-      <link>http://alperyilmaz.site/publication/conference-paper/3199909/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3199909/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/publication/conference-paper/3199909/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/3199909/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.
@@ -79,9 +79,9 @@
     
     <item>
       <title>Utilization of Multiple Mapped Sequences in Next Generation Sequencing Especially in Chip-Seq Experiments</title>
-      <link>http://alperyilmaz.site/publication/conference-paper/2526201/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/2526201/</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0300</pubDate>
-      <guid>http://alperyilmaz.site/publication/conference-paper/2526201/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/publication/conference-paper/2526201/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>jekyll | Assoc.Prof.Dr. Alper YILMAZ</title>
-    <link>http://alperyilmaz.site/tag/jekyll/</link>
-      <atom:link href="http://alperyilmaz.site/tag/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alpeyilmaz.github.io/blogdown-hugo/tag/jekyll/</link>
+      <atom:link href="https://alpeyilmaz.github.io/blogdown-hugo/tag/jekyll/index.xml" rel="self" type="application/rss+xml" />
     <description>jekyll</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Fri, 20 May 2016 01:10:57 +0300</lastBuildDate>
     <image>
-      <url>http://alperyilmaz.site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://alpeyilmaz.github.io/blogdown-hugo/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>jekyll</title>
-      <link>http://alperyilmaz.site/tag/jekyll/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/tag/jekyll/</link>
     </image>
     
     <item>
       <title>Jekyll themes I want to try</title>
-      <link>http://alperyilmaz.site/post/2016-05-20-jekyll-themes-i-want-to-try/</link>
+      <link>https://alpeyilmaz.github.io/blogdown-hugo/post/2016-05-20-jekyll-themes-i-want-to-try/</link>
       <pubDate>Fri, 20 May 2016 01:10:57 +0300</pubDate>
-      <guid>http://alperyilmaz.site/post/2016-05-20-jekyll-themes-i-want-to-try/</guid>
+      <guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2016-05-20-jekyll-themes-i-want-to-try/</guid>
       <description>&lt;p&gt;After going thru a &lt;a href=&#34;https://github.com/jekyll/jekyll/wiki/Themes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;long list of themes&lt;/a&gt;, the following themes have some or all capabilities I&amp;rsquo;d like to have in a theme:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.hossainmohdfaysal.com/hmfaysal-omega-theme/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.hossainmohdfaysal.com/hmfaysal-omega-theme/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/holman/left&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/holman/left&lt;/a&gt; might not be as pretty as &lt;a href=&#34;https://zachholman.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zachholman.com/&lt;/a&gt;&lt;/p&gt;
