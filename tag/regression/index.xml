@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>regression | Assoc.Prof.Dr. Alper YILMAZ</title><link>http://alperyilmaz.site/tag/regression/</link><atom:link href="http://alperyilmaz.site/tag/regression/index.xml" rel="self" type="application/rss+xml"/><description>regression</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><image><url>http://alperyilmaz.site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url><title>regression</title><link>http://alperyilmaz.site/tag/regression/</link></image><item><title>Hello R Markdown</title><link>http://alperyilmaz.site/post/2020-12-01-hello-r-markdown/</link><pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate><guid>http://alperyilmaz.site/post/2020-12-01-hello-r-markdown/</guid><description>
-&lt;script src="http://alperyilmaz.site/post/2020-12-01-hello-r-markdown/index.en_files/header-attrs/header-attrs.js">&lt;/script>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>regression | Assoc.Prof.Dr. Alper YILMAZ</title><link>https://alpeyilmaz.github.io/blogdown-hugo/tag/regression/</link><atom:link href="https://alpeyilmaz.github.io/blogdown-hugo/tag/regression/index.xml" rel="self" type="application/rss+xml"/><description>regression</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><image><url>https://alpeyilmaz.github.io/blogdown-hugo/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url><title>regression</title><link>https://alpeyilmaz.github.io/blogdown-hugo/tag/regression/</link></image><item><title>Hello R Markdown</title><link>https://alpeyilmaz.github.io/blogdown-hugo/post/2020-12-01-hello-r-markdown/</link><pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate><guid>https://alpeyilmaz.github.io/blogdown-hugo/post/2020-12-01-hello-r-markdown/</guid><description>
+&lt;script src="https://alpeyilmaz.github.io/blogdown-hugo/post/2020-12-01-hello-r-markdown/index.en_files/header-attrs/header-attrs.js">&lt;/script>
 &lt;div id="r-markdown" class="section level1">
 &lt;h1>R Markdown&lt;/h1>
 &lt;p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com&lt;/a>.&lt;/p>
@@ -33,7 +33,7 @@ col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&a
 init.angle = -50, border = NA
 )&lt;/code>&lt;/pre>
 &lt;div class="figure">&lt;span id="fig:pie">&lt;/span>
-&lt;img src="http://alperyilmaz.site/post/2020-12-01-hello-r-markdown/index.en_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+&lt;img src="https://alpeyilmaz.github.io/blogdown-hugo/post/2020-12-01-hello-r-markdown/index.en_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
 &lt;p class="caption">
 Figure 1: A fancy pie chart.
 &lt;/p>

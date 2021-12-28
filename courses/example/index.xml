@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📊 Learn Data Science | Assoc.Prof.Dr. Alper YILMAZ</title><link>http://alperyilmaz.site/courses/example/</link><atom:link href="http://alperyilmaz.site/courses/example/index.xml" rel="self" type="application/rss+xml"/><description>📊 Learn Data Science</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><image><url>http://alperyilmaz.site/courses/example/featured.jpg</url><title>📊 Learn Data Science</title><link>http://alperyilmaz.site/courses/example/</link></image><item><title>Python basics</title><link>http://alperyilmaz.site/courses/example/python/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>http://alperyilmaz.site/courses/example/python/</guid><description>&lt;p>Build a foundation in Python.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📊 Learn Data Science | Assoc.Prof.Dr. Alper YILMAZ</title><link>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/</link><atom:link href="https://alpeyilmaz.github.io/blogdown-hugo/courses/example/index.xml" rel="self" type="application/rss+xml"/><description>📊 Learn Data Science</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><image><url>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/featured.jpg</url><title>📊 Learn Data Science</title><link>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/</link></image><item><title>Python basics</title><link>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/python/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/python/</guid><description>&lt;p>Build a foundation in Python.&lt;/p>
 &lt;p>
 &lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
 &lt;h2 id="learn">Learn&lt;/h2>
@@ -25,7 +25,7 @@
 &lt;details class="spoiler " id="spoiler-3">
 &lt;summary>Is Python case-sensitive?&lt;/summary>
 &lt;p>Yes&lt;/p>
-&lt;/details></description></item><item><title>Visualization</title><link>http://alperyilmaz.site/courses/example/visualization/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>http://alperyilmaz.site/courses/example/visualization/</guid><description>&lt;p>Learn how to visualize data with Plotly.&lt;/p>
+&lt;/details></description></item><item><title>Visualization</title><link>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/visualization/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/visualization/</guid><description>&lt;p>Learn how to visualize data with Plotly.&lt;/p>
 &lt;p>
 &lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
 &lt;h2 id="learn">Learn&lt;/h2>
@@ -45,7 +45,7 @@ fig = px.bar(data_canada, x='year', y='pop')
 fig.show()
 &lt;/code>&lt;/pre>
 &lt;/p>
-&lt;/details></description></item><item><title>Statistics</title><link>http://alperyilmaz.site/courses/example/stats/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>http://alperyilmaz.site/courses/example/stats/</guid><description>&lt;p>Introduction to statistics for data science.&lt;/p>
+&lt;/details></description></item><item><title>Statistics</title><link>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/stats/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://alpeyilmaz.github.io/blogdown-hugo/courses/example/stats/</guid><description>&lt;p>Introduction to statistics for data science.&lt;/p>
 &lt;p>
 &lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
 &lt;h2 id="learn">Learn&lt;/h2>
