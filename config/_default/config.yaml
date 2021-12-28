@@ -5,7 +5,8 @@ theme: "starter-hugo-academic"
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Assoc.Prof.Dr. Alper YILMAZ # Website name
-baseurl: 'http://alperyilmaz.site/' # Website URL
+#baseurl: 'http://alperyilmaz.site/' # Website URL
+baseurl: 'https://alpeyilmaz.github.io/blogdown-hugo/'
 copyright: '&copy; 2021' # Footer text, e.g. '© {year} Me'
 
 ############################
