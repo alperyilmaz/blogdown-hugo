@@ -1,0 +1,25 @@
+---
+title: this is a test post
+author: admin
+date: '2021-12-24'
+slug: this-is-a-test-post
+categories:
+  - R
+tags:
+  - Deep Learning
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-12-24T11:01:05+03:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+```{r}
+plot(mtcars)
+```
+

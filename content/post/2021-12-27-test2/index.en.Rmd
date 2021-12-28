@@ -1,0 +1,25 @@
+---
+title: test2
+author: admin
+date: '2021-12-27'
+slug: test2
+categories:
+  - Demo
+tags:
+  - Academic
+subtitle: ''
+summary: ''
+authors: [admin]
+lastmod: '2021-12-27T02:30:50+03:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+```{r}
+plot(mtcars)
+```
+
