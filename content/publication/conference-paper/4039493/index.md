@@ -19,8 +19,8 @@ publication_types:
 slides:
 summary: 
 tags:
-  - Tissue specific
-  - Gene expression
+  - Tissue Specific
+  - Gene Expression
   - RNA-Seq
 title: Identification of Tissue Specific Genes and Assessment of Their Intersection with Differentialy Expressed Genes in Cancer Data to Understand Tumor Heterogeneity in silico
 url_code: 
