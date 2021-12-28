@@ -12,7 +12,7 @@ image:
   focal_point: 
 links:
   - name: Custom Link
-  url: https://www.researchgate.net/publication/339107011_Prebiotics_and_Probiotics_Break_the_'Self-Domino_Effect'_for_obesity_Treatment
+    url: https://www.researchgate.net/publication/339107011_Prebiotics_and_Probiotics_Break_the_'Self-Domino_Effect'_for_obesity_Treatment
 projects:
   - internal-project
 publication: In *IVEK 3rd International Convention of Pharmaceuticals and Pharmacies*
