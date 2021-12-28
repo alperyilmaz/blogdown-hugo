@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://alpeyilmaz.github.io/blogdown-hugo/sitemap.xml
