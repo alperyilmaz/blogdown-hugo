@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gene expression | Assoc.Prof.Dr. Alper YILMAZ</title>
+    <link>http://alperyilmaz.site/tag/gene-expression/</link>
+      <atom:link href="http://alperyilmaz.site/tag/gene-expression/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gene expression</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0300</lastBuildDate>
+    <image>
+      <url>http://alperyilmaz.site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Gene expression</title>
+      <link>http://alperyilmaz.site/tag/gene-expression/</link>
+    </image>
+    
+    <item>
+      <title>Tissue Specific Gene Expression</title>
+      <link>http://alperyilmaz.site/project/tissue-specific-gene-expression/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0300</pubDate>
+      <guid>http://alperyilmaz.site/project/tissue-specific-gene-expression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rigorous Identification of Tissue Specific Genes in silico</title>
+      <link>http://alperyilmaz.site/publication/conference-paper/4039173/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0300</pubDate>
+      <guid>http://alperyilmaz.site/publication/conference-paper/4039173/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

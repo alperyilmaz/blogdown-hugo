@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bioinformatics | Assoc.Prof.Dr. Alper YILMAZ</title>
+    <link>http://alperyilmaz.site/tag/bioinformatics/</link>
+      <atom:link href="http://alperyilmaz.site/tag/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <description>bioinformatics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Sun, 06 Mar 2011 08:40:36 +0000</lastBuildDate>
+    <image>
+      <url>http://alperyilmaz.site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>bioinformatics</title>
+      <link>http://alperyilmaz.site/tag/bioinformatics/</link>
+    </image>
+    
+    <item>
+      <title>Extract upstream region sequence with bedtools</title>
+      <link>http://alperyilmaz.site/post/2011-03-06-extract-upstream-region-sequence-with-bedtools/</link>
+      <pubDate>Sun, 06 Mar 2011 08:40:36 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2011-03-06-extract-upstream-region-sequence-with-bedtools/</guid>
+      <description>&lt;p&gt;Soon after SAM/BAM format became standard for short-read alignment softwares, high caliber tools have been emerging that can process the widely accepted format. &lt;a href=&#34;http://code.google.com/p/bedtools/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bedtools&lt;/a&gt; is one of them and it&amp;rsquo;s easy to use and flexible. Most importantly you can integrate it with commandline pipes.&lt;/p&gt;
+&lt;p&gt;In this post, I&amp;rsquo;ll be describing how to extract upstream region sequences with the help of bedtools. I&amp;rsquo;ll be using the following files in my sample:&lt;/p&gt;
+&lt;p&gt;File1: small-chr-genes.bed (holds locations of genes)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;1	10	20	gene1	0	+
+1	40	50	gene2	0	-
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;File2: small-chr.fa (genome sequence file)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;&amp;gt;1
+GCGACTACGACTACAGCACTACGACATCAGCACTACGACT
+ACGACTACGACATCACGACACACGACGACATCACGACTAC
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;File3: small-chr.genome (genome file which contains name and length of each chromosome)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;1	80
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The one-liner below extracts 5 basepairs upstream region for each gene and slopBed takes care of strand issues (reverse complement of extracted sequence if gene is on negative strand) and genome size issues (trim the extracted sequence if gene is close to beginning or end of chromosome).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;slopBed -i small-chr-genes.bed -g small-chr.genome -l 5 -r 0 -s | perl -ane &#39;($F[5] eq &amp;quot;+&amp;quot;)? $F[2]=$F[1] : $F[1]=$F[2]; print join&amp;quot;\t&amp;quot;,@F;print&amp;quot;\n&amp;quot;&#39;  | slopBed -i stdin -g small-chr.genome -l 0 -r 5 -s | fastaFromBed -fi small-chr.fa -bed stdin -fo stdout -name -s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The output looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;&amp;gt;gene1
+TACGA
+&amp;gt;gene2
+TGATG
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let me try to explain how it works, first I extend each gene 5 basepair to its upstream. Then I mark the beginning of the extended region by converting it into single nucleotide region. I use slopBed again, to extend from the mark in opposite direction for 5 basepairs. Now we have the upstream region start and end coordinates, and by the help of fastaFromBed, the upstream region sequence was extracted from genome sequence.&lt;/p&gt;
+&lt;p&gt;bedtools has a tool named subtractBed and I was thinking that combination of slopBed, subtractBed and fastaFromBed should be the solution. However, probably due to genes that are overlapping, subtracting gene region from extended region didn&amp;rsquo;t work as well as I expected. That&amp;rsquo;s why I integrated a perl one-liner to take care of subtracting the gene region from extended region.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; : bedtools developer &lt;a href=&#34;http://obx.cphg.virginia.edu/quinlan/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aaron Quinlan&lt;/a&gt; was kind enough to develop a new tool to accomplish the task described above. &amp;ldquo;flankBed&amp;rdquo; does exactly what is described above and it&amp;rsquo;s much simpler. Here&amp;rsquo;s the flankBed equivalent of extracting upstream regions:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;flankBed -i small-chr-genes.bed -g small-chr.genome -l 5 -r 0 -s | fastaFromBed -fi small-chr.fa -bed stdin -fo stdout -name -s
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>perl one-liner to pick random sequences from fasta file</title>
+      <link>http://alperyilmaz.site/post/2010-07-15-perl-one-liner-to-pick-random-sequences-from-fasta-file/</link>
+      <pubDate>Thu, 15 Jul 2010 08:03:53 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2010-07-15-perl-one-liner-to-pick-random-sequences-from-fasta-file/</guid>
+      <description>&lt;p&gt;In an earlier [post]({{ ref &amp;ldquo;post/perl-one-liner-to-process-sequence-files-in-stream.md&amp;rdquo; }}) we learned how to use Bio::SeqIO module to process fasta files with one-liner. Let&amp;rsquo;s do more with this capability. What about selecting random sequences from a fasta file?&lt;/p&gt;
+&lt;p&gt;To achieve that, we&amp;rsquo;ll load the fasta file contents into a hash and then utilize the fact that &lt;code&gt;rand(@array)&lt;/code&gt; returns index of a random element from that array.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s pick 100 random sequences from a fasta file with one-liner:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;.. fasta file stream .. | perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN);while ($myseq=$seq-&amp;gt;next_seq){ $hash{$myseq-&amp;gt;id}=$myseq-&amp;gt;seq }; END{@ids = keys %hash; foreach (1..100){my $index=rand(@ids); print &amp;quot;&amp;gt;&amp;quot;,$ids[$index],&amp;quot;\n&amp;quot;,$hash{$ids[$index]},&amp;quot;\n&amp;quot; } }&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: If this one-liner throws problem about first sequence, please indicate the format of the input. Since read ahead is not possible in a pipe, the format might not be guessed correctly. So, please update the one-liner with this: &lt;code&gt;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN, -format=&amp;gt;&amp;quot;fasta&amp;quot;)&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visualize Circos images with Seadragon</title>
+      <link>http://alperyilmaz.site/post/2010-04-02-visualize-circos-images-with-seadragon/</link>
+      <pubDate>Fri, 02 Apr 2010 16:34:41 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2010-04-02-visualize-circos-images-with-seadragon/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://mkweb.bcgsc.ca/circos/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Circos&lt;/a&gt; is a very powerful tool to visualize different types of data (expression, homology, etc) in circular fashion.&lt;/p&gt;
+&lt;p&gt;The software is capable of producing very large images if desired, suitable for posters.&lt;/p&gt;
+&lt;p&gt;Actually, we can create large images for viewing online, since it&amp;rsquo;s trivial to view them with Seadragon.&lt;/p&gt;
+&lt;p&gt;Below is an example from Circos tutorial (I modified the config file to obtain large image) (&lt;em&gt;EDIT: Since the seadragon page was very slow to respond, I just included the embed URL&lt;/em&gt;S)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;script src=&amp;quot;http://seadragon.com/embed/yhz.js?width=auto&amp;amp;height=400px&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Original image is located &lt;a href=&#34;http://alperyilmaz.site/img/circos-tutorial-huge.png&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;PS: Author of Circos, Martin Krzywinski has more interesting software listed in &lt;a href=&#34;http://mkweb.bcgsc.ca/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;his page&lt;/a&gt;. And his lecture notes on &lt;a href=&#34;http://mkweb.bcgsc.ca/perlworkshop/index.mhtml?code=2.1.2.4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data Mining and Analysis at the Command Line&lt;/a&gt; is worth checking.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>perl one-liner to process sequence files in stream</title>
+      <link>http://alperyilmaz.site/post/2010-04-01-perl-one-liner-to-process-sequence-files-in-stream/</link>
+      <pubDate>Thu, 01 Apr 2010 02:43:57 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2010-04-01-perl-one-liner-to-process-sequence-files-in-stream/</guid>
+      <description>&lt;p&gt;Need a practical way to process fasta files with Bio::SeqIO module ? Below code will print sequence id and sequence length with tab per line.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN);while ($myseq=$seq-&amp;gt;next_seq){print $myseq-&amp;gt;id,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;length,&amp;quot;\n&amp;quot;;}&#39; &amp;lt; filename 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;OR&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cat filename | perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN);while ($myseq=$seq-&amp;gt;next_seq){print $myseq-&amp;gt;id,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;length,&amp;quot;\n&amp;quot;;}&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;There are many more methods to use from &lt;a href=&#34;http://doc.bioperl.org/releases/bioperl-current/bioperl-live/Bio/Seq.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bio::Seq&lt;/a&gt;, such as revcom, translate, subseq(start,end), primary_id, desc, etc.&lt;/p&gt;
+&lt;p&gt;Piped file does not need to be in Fasta format, there are many other formats (listed &lt;a href=&#34;http://www.bioperl.org/wiki/HOWTO:SeqIO&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;) which SeqIO can parse successfully.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;UPDATE&lt;/em&gt;: If you are using this one-liner in a pipe, you might need to declare the format so that the stream is processed correctly. Also, in order to retrieve Bio::Seq methods, please use &amp;ldquo;-&amp;gt;seq&amp;rdquo; to access the final sequence.&lt;/p&gt;
+&lt;p&gt;Considering all these updates, the one-liner should look like this:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN,-format=&amp;gt;&amp;quot;fasta&amp;quot;);while ($myseq=$seq-&amp;gt;next_seq){print $myseq-&amp;gt;id,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;length,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;seq,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;translate-&amp;gt;seq,&amp;quot;\n&amp;quot;;}&#39;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

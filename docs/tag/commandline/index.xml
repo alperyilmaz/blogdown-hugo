@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>commandline | Assoc.Prof.Dr. Alper YILMAZ</title>
+    <link>http://alperyilmaz.site/tag/commandline/</link>
+      <atom:link href="http://alperyilmaz.site/tag/commandline/index.xml" rel="self" type="application/rss+xml" />
+    <description>commandline</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Tue, 27 Sep 2016 00:26:05 +0300</lastBuildDate>
+    <image>
+      <url>http://alperyilmaz.site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>commandline</title>
+      <link>http://alperyilmaz.site/tag/commandline/</link>
+    </image>
+    
+    <item>
+      <title>Eternal bash history</title>
+      <link>http://alperyilmaz.site/post/2016-09-27-eternal-bash-history/</link>
+      <pubDate>Tue, 27 Sep 2016 00:26:05 +0300</pubDate>
+      <guid>http://alperyilmaz.site/post/2016-09-27-eternal-bash-history/</guid>
+      <description>&lt;p&gt;After starting to use the bash, you quickly realize bash history is an invaluable asset. You can quickly search and find a previous command in order to remember when and what you have done. I was using a primitive way to archive the history with which I accumulated history of commands since 2008. The primitive setup has two parts. First part is a cron job:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;0 13 3,11,24 * *   /bin/cat ~/.bash_history &amp;gt; ~/.history_backup_`date +\%Y\%m\%d`
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This cron job line means: on 3rd, 11th and 24th of each month at 1pm dump contents of &lt;code&gt;.bash_history&lt;/code&gt; file to history backup file. By time, I ended up with 1-2 files per month.&lt;/p&gt;
+&lt;p&gt;Second part is couple bash functions to merge the archive.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;oldhistory(){ for file in /home/alper/.history_backup_20*; do cat $file; echo; done | perl -ne &#39;if (/^#([0-9]{10}$)/){my $nextline=&amp;lt;&amp;gt;; $hash{$1}=$nextline }else{next}; END{print map { $hash{$_} } sort keys %hash}&#39;; }
+
+oldhistory-time(){ for file in /home/alper/.history_backup_20*; do cat $file; echo; done | perl -ne &#39;if (/^#([0-9]{10}$)/){ my $nextline=&amp;lt;&amp;gt;; $hash{$1}=$nextline }else{next}; END{print map {scalar localtime($_).&amp;quot;\t&amp;quot;.$hash{$_}} sort keys %hash}&#39;; }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;However, just recently I noticed that the bash history file is trimmed and contained only 10 days of worth commands. Luckily, I recovered a backup of &lt;code&gt;.bash_history&lt;/code&gt; file and didn&amp;rsquo;t lose much data. But, it was a wakeup call, my primitive system is prone to lose data without a notice. So, I started searching for a better solution to archive bash history.&lt;/p&gt;
+&lt;p&gt;When I search online I first came across &lt;a href=&#34;https://lukas.zapletalovi.com/2013/03/never-lost-your-bash-history-again.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this post&lt;/a&gt;. And then carried on searching and didn&amp;rsquo;t find anything that intrigues me. I also searched &lt;a href=&#34;https://github.com/search?o=desc&amp;amp;q=bash&amp;#43;history&amp;amp;s=stars&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt; after which I got couple of aha moments. &lt;a href=&#34;https://github.com/rcaloras/bashhub-client&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bashhub&lt;/a&gt; can save your bash history in the cloud. That was very interesting and useful but I didn&amp;rsquo;t like the third party keeping the commands. There were couple more projects offering nice UI or advanced features (sqlite database for instance), such as &lt;a href=&#34;https://github.com/autochthe/history&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;history&lt;/a&gt;, &lt;a href=&#34;https://github.com/dvorka/hstr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hstr&lt;/a&gt;, &lt;a href=&#34;https://github.com/thenewwazoo/bash-history-sqlite&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bash-history-sqlite&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Finally, I got a good idea from &lt;a href=&#34;https://spin.atomicobject.com/2016/05/28/log-bash-history/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this blog&lt;/a&gt;. Now, I&amp;rsquo;m testing this method and hoping that it would work with less problems.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;export PROMPT_COMMAND=&#39;history -a; history -n; if [ &amp;quot;$(id -u)&amp;quot; -ne 0 ]; then echo -e &amp;quot;$(date &amp;quot;+%Y-%m-%d.%H:%M:%S&amp;quot;)\t$(hostname)\t$(pwd)\t$(history -p \!-1)&amp;quot; &amp;gt;&amp;gt; ~/.logs/bash-history-$(hostname)-$(date &amp;quot;+%Y-%m-%d&amp;quot;).log; fi&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Update (2017-05-26):&lt;/strong&gt; This code causes problem with &lt;code&gt;screen&lt;/code&gt;. Within &lt;code&gt;screen&lt;/code&gt; the command is not printed out and written correctly into bash-history file.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>List of terminals with working folder names</title>
+      <link>http://alperyilmaz.site/post/2016-09-15-list-of-terminals-with-working-folder-names/</link>
+      <pubDate>Thu, 15 Sep 2016 12:00:00 +0300</pubDate>
+      <guid>http://alperyilmaz.site/post/2016-09-15-list-of-terminals-with-working-folder-names/</guid>
+      <description>&lt;p&gt;From time to time, I had many terminal tabs open and wanted to see the list of terminals along with working folder names. Finally, I fed up with the issue tried to find a solution. After fiddling with some code, here&amp;rsquo;s the function that I added to &lt;code&gt;.bashrc&lt;/code&gt; file&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;tty-list() { ps aux --sort=start_time | grep &amp;quot;pts/&amp;quot; | grep [b]ash | awk -F&amp;quot; +&amp;quot; &#39;{print $2&amp;quot;\t&amp;quot;$7}&#39; | while read PID PTS; do echo -n -e &amp;quot;$PTS&amp;quot;&amp;quot;\t&amp;quot;; readlink -f /proc/$PID/cwd; done ; }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In terminal, tty-list command lists the pts number and working folder name as shown below:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;pts/3	/home/alper
+pts/6	/home/alper
+pts/7	/home/alper/.logs
+pts/8	/home/alper/tmp
+pts/9	/home/alper/Documents/blog-github/website
+pts/9   /home/alper/Documents/blog-github/website
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The list is in order of opening the tabs. As you notice, last two lines are duplicate because when you issue the function there&amp;rsquo;s while loop and I&amp;rsquo;m guessing it&amp;rsquo;s running in a subshell so the terminal you run the function is counted twice.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transpose a matrix with perl nested map</title>
+      <link>http://alperyilmaz.site/post/2011-07-07-transpose-a-matrix-with-perl-nested-map/</link>
+      <pubDate>Thu, 07 Jul 2011 09:33:37 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2011-07-07-transpose-a-matrix-with-perl-nested-map/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s the matrix that we&amp;rsquo;ll be using:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ paste &amp;lt;(seq 1 5) &amp;lt;(seq 12 16) 
+1	12
+2	13
+3	14
+4	15
+5	16
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now, let&amp;rsquo;s use a perl one-liner with nested maps to transpose the matrix:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ paste &amp;lt;(seq 1 5) &amp;lt;(seq 12 16) | perl -ane &#39;push @matrix,[@F]; END { print join &amp;quot;\n&amp;quot;,map {$row=$_; join&amp;quot;\t&amp;quot;,map { $matrix[$_][$row]} 0 .. $#matrix } 0 .. $#{$matrix[0]}; print &amp;quot;\n&amp;quot; }&#39;
+1	2	3	4	5
+12	13	14	15	16
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I got the idea from this &lt;a href=&#34;http://www.hidemail.de/blog/perl_tutor.shtml#map_transpose_matrix&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog post&lt;/a&gt;, but I slightly modified it so that you don&amp;rsquo;t need to make a copy of the transposed array (to save memory)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Extract intervals from an array of numbers</title>
+      <link>http://alperyilmaz.site/post/2011-06-27-extract-intervals-from-an-array-of-numbers/</link>
+      <pubDate>Mon, 27 Jun 2011 06:58:02 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2011-06-27-extract-intervals-from-an-array-of-numbers/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s assume you have an array of numbers and you want to extract intervals from this array. For example, from such an array: 2,3,4,5,8,9,10,11,12,15,18,19,20 you should be getting (2-5), (8-12), (18-20) as intervals.&lt;/p&gt;
+&lt;p&gt;More bioinformatic case: Let&amp;rsquo;s assume you ran samtools pileup format and want to extract intervals from the genomic coordinates that has at least one hit.&lt;/p&gt;
+&lt;p&gt;The following one-liner will give you what you want: (I used &lt;code&gt;seq&lt;/code&gt; to generate array of numbers and concatenated multiple seq)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cat &amp;lt;(seq 3 23) &amp;lt;(echo 25) &amp;lt;(seq 40 50) | perl -ne &#39;BEGIN{our $i=1}; chomp ; if(($_ - (${$hash-&amp;gt;{$i-1}}[-1]))==1){push @{$hash-&amp;gt;{$i-1}},$_}else{push @{$hash-&amp;gt;{$i++}},$_}; END {print join&amp;quot;\n&amp;quot;, map {${$hash-&amp;gt;{$_}}[0].&amp;quot;\t&amp;quot;.${$hash-&amp;gt;{$_}}[-1]} grep { scalar(@{$hash-&amp;gt;{$_}}) &amp;gt; 1} sort {$a &amp;lt;=&amp;gt; $b} keys %$hash; print &amp;quot;\n&amp;quot;}&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And the result is:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;3	23
+40	50
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;map&lt;/code&gt; was used to get first and last element of array, &lt;code&gt;grep&lt;/code&gt; is used to filter out arrays that has less than 2 elements.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Plot one-liner generated data with gnuplot</title>
+      <link>http://alperyilmaz.site/post/2010-10-16-plot-one-liner-generated-data-with-gnuplot/</link>
+      <pubDate>Sat, 16 Oct 2010 22:13:24 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2010-10-16-plot-one-liner-generated-data-with-gnuplot/</guid>
+      <description>&lt;p&gt;In this post, I&amp;rsquo;ll demonstrate how to use gnuplot in a one-liner. We&amp;rsquo;ll use the pipe but unfortunately you cannot pipe raw data to gnuplot directly (as far as I know). The piped data should contain basic gnuplot commands on top. So, we&amp;rsquo;ll use the following template:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;very-complicated-data-generating-commands | sed -e &amp;quot;1i\plot &#39;-&#39; &amp;quot; | gnuplot -persist
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in quickly see how this works, try something simple:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;seq 1 10 | sed -e &amp;quot;1i\plot &#39;-&#39;&amp;quot; | gnuplot -persist
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Before sed command, you can write as complicated as possible command to generate data and inside sed command you can put long gnuplot commands to obtain graphs. Let&amp;rsquo;s see the counts of most used 20 commands from history (mentioned in an &lt;a href=&#34;http://alperyilmaz.site/post/2010-04-08-most-used-commands-in-history/&#34;&gt;earlier post&lt;/a&gt; with bar chart.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cat ~/.bash_history|grep -v &amp;quot;^#&amp;quot; | perl -F&amp;quot;\||&amp;lt;\(|;|\`|\\$\(&amp;quot; -alne &#39;foreach (@F) { print $1 if /^.*?(\w+)\b/i }&#39; | sort | uniq -c | sort -nr | head -20 | awk &#39;{print $2&amp;quot;\t&amp;quot;$1}&#39; | sed -e &amp;quot;1i\set boxwidth 0.5\nset style fill solid noborder\nset xtics nomirror rotate by -60\nset format x &#39;-%s&#39;\nplot &#39;-&#39; using 2:xticlabels(1) with boxes notitle&amp;quot; | gnuplot -persist
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Resulting image looks like this:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://alperyilmaz.site/img/history-top-occur-graph550x350.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;If you want to save the output in png format, what you do is simply add the command &lt;code&gt;set term png size 600,300&lt;/code&gt; to your one-liner. I chose width 600px and height 300px as example. In this case, gnuplot prints the contents of png file to screen, so we need to direct it to a filename, as shown below:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cat ~/.bash_history|grep -v &amp;quot;^#&amp;quot; | perl -F&amp;quot;\||&amp;lt;\(|;|\`|\\$\(&amp;quot; -alne &#39;foreach (@F) { print $1 if /^.*?(\w+)\b/i }&#39; | sort | uniq -c | sort -nr | head -20 | awk &#39;{print $2&amp;quot;\t&amp;quot;$1}&#39; | sed -e &amp;quot;1i\set term png size 600,350\nset boxwidth 0.5\nset style fill solid noborder\nset xtics nomirror rotate by -60\nset format x &#39;-%s&#39;\nplot &#39;-&#39; using 2:xticlabels(1) with boxes notitle&amp;quot; | gnuplot &amp;gt; sample_image.png
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>bash completion for scp</title>
+      <link>http://alperyilmaz.site/post/2010-03-10-bash-completion-for-scp/</link>
+      <pubDate>Wed, 10 Mar 2010 16:30:03 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2010-03-10-bash-completion-for-scp/</guid>
+      <description>&lt;p&gt;I have been looking for a solution for broken bash_completion for scp command. I was thinking my ssh was not configured correctly for password-less login. But I just found out that bash completion is broken for Ubuntu 9.10.&lt;/p&gt;
+&lt;p&gt;If you are suffering from same symptom, please read &lt;a href=&#34;http://pro.grammatic.org/post-fixing-scp-completion-in-ubuntu-910-73.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this article&lt;/a&gt; for fix.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Retrieve WP categories from commandline</title>
+      <link>http://alperyilmaz.site/post/2010-01-13-retrieve-wp-categories-from-commandline/</link>
+      <pubDate>Wed, 13 Jan 2010 19:08:15 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2010-01-13-retrieve-wp-categories-from-commandline/</guid>
+      <description>&lt;p&gt;Posting to WP from commandline is great. Before I post it, I need to lookup available categories so that I can categorize the new post correctly. To prevent a visit to WP admin GUI, I used the same Perl module for posting to retrieve available categories. Below is the code. I hope it helps you too..&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;use WordPress::XMLRPC;
+my $o = WordPress::XMLRPC-&amp;gt;new({
+   username =&amp;gt; &#39;username&#39;,
+   password =&amp;gt; &#39;password&#39;,
+   proxy =&amp;gt; &#39;http://yourblog-address/xmlrpc.php&#39;,
+ });
+
+my $categories= $o-&amp;gt;getCategories();
+foreach (0..scalar(@$categories)) {
+	print ${$categories}[$_]-&amp;gt;{&#39;categoryId&#39;},&amp;quot;\t&amp;quot;,${$categories}[$_]-&amp;gt;{&#39;categoryName&#39;};
+	if (${$categories}[$_]-&amp;gt;{&#39;parentId&#39;} != 0){
+		print &amp;quot;\tParentId=&amp;quot;,${$categories}[$_]-&amp;gt;{&#39;parentId&#39;},&amp;quot;\n&amp;quot;;
+		}
+	else {print &amp;quot;\n&amp;quot;}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

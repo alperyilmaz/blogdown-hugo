@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: http://alperyilmaz.site/sitemap.xml

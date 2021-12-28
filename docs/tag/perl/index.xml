@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>perl | Assoc.Prof.Dr. Alper YILMAZ</title>
+    <link>http://alperyilmaz.site/tag/perl/</link>
+      <atom:link href="http://alperyilmaz.site/tag/perl/index.xml" rel="self" type="application/rss+xml" />
+    <description>perl</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Thu, 07 Jul 2011 09:33:37 +0000</lastBuildDate>
+    <image>
+      <url>http://alperyilmaz.site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>perl</title>
+      <link>http://alperyilmaz.site/tag/perl/</link>
+    </image>
+    
+    <item>
+      <title>Transpose a matrix with perl nested map</title>
+      <link>http://alperyilmaz.site/post/2011-07-07-transpose-a-matrix-with-perl-nested-map/</link>
+      <pubDate>Thu, 07 Jul 2011 09:33:37 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2011-07-07-transpose-a-matrix-with-perl-nested-map/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s the matrix that we&amp;rsquo;ll be using:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ paste &amp;lt;(seq 1 5) &amp;lt;(seq 12 16) 
+1	12
+2	13
+3	14
+4	15
+5	16
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now, let&amp;rsquo;s use a perl one-liner with nested maps to transpose the matrix:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ paste &amp;lt;(seq 1 5) &amp;lt;(seq 12 16) | perl -ane &#39;push @matrix,[@F]; END { print join &amp;quot;\n&amp;quot;,map {$row=$_; join&amp;quot;\t&amp;quot;,map { $matrix[$_][$row]} 0 .. $#matrix } 0 .. $#{$matrix[0]}; print &amp;quot;\n&amp;quot; }&#39;
+1	2	3	4	5
+12	13	14	15	16
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I got the idea from this &lt;a href=&#34;http://www.hidemail.de/blog/perl_tutor.shtml#map_transpose_matrix&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog post&lt;/a&gt;, but I slightly modified it so that you don&amp;rsquo;t need to make a copy of the transposed array (to save memory)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Extract intervals from an array of numbers</title>
+      <link>http://alperyilmaz.site/post/2011-06-27-extract-intervals-from-an-array-of-numbers/</link>
+      <pubDate>Mon, 27 Jun 2011 06:58:02 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2011-06-27-extract-intervals-from-an-array-of-numbers/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s assume you have an array of numbers and you want to extract intervals from this array. For example, from such an array: 2,3,4,5,8,9,10,11,12,15,18,19,20 you should be getting (2-5), (8-12), (18-20) as intervals.&lt;/p&gt;
+&lt;p&gt;More bioinformatic case: Let&amp;rsquo;s assume you ran samtools pileup format and want to extract intervals from the genomic coordinates that has at least one hit.&lt;/p&gt;
+&lt;p&gt;The following one-liner will give you what you want: (I used &lt;code&gt;seq&lt;/code&gt; to generate array of numbers and concatenated multiple seq)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cat &amp;lt;(seq 3 23) &amp;lt;(echo 25) &amp;lt;(seq 40 50) | perl -ne &#39;BEGIN{our $i=1}; chomp ; if(($_ - (${$hash-&amp;gt;{$i-1}}[-1]))==1){push @{$hash-&amp;gt;{$i-1}},$_}else{push @{$hash-&amp;gt;{$i++}},$_}; END {print join&amp;quot;\n&amp;quot;, map {${$hash-&amp;gt;{$_}}[0].&amp;quot;\t&amp;quot;.${$hash-&amp;gt;{$_}}[-1]} grep { scalar(@{$hash-&amp;gt;{$_}}) &amp;gt; 1} sort {$a &amp;lt;=&amp;gt; $b} keys %$hash; print &amp;quot;\n&amp;quot;}&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And the result is:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;3	23
+40	50
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;map&lt;/code&gt; was used to get first and last element of array, &lt;code&gt;grep&lt;/code&gt; is used to filter out arrays that has less than 2 elements.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Extract upstream region sequence with bedtools</title>
+      <link>http://alperyilmaz.site/post/2011-03-06-extract-upstream-region-sequence-with-bedtools/</link>
+      <pubDate>Sun, 06 Mar 2011 08:40:36 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2011-03-06-extract-upstream-region-sequence-with-bedtools/</guid>
+      <description>&lt;p&gt;Soon after SAM/BAM format became standard for short-read alignment softwares, high caliber tools have been emerging that can process the widely accepted format. &lt;a href=&#34;http://code.google.com/p/bedtools/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bedtools&lt;/a&gt; is one of them and it&amp;rsquo;s easy to use and flexible. Most importantly you can integrate it with commandline pipes.&lt;/p&gt;
+&lt;p&gt;In this post, I&amp;rsquo;ll be describing how to extract upstream region sequences with the help of bedtools. I&amp;rsquo;ll be using the following files in my sample:&lt;/p&gt;
+&lt;p&gt;File1: small-chr-genes.bed (holds locations of genes)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;1	10	20	gene1	0	+
+1	40	50	gene2	0	-
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;File2: small-chr.fa (genome sequence file)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;&amp;gt;1
+GCGACTACGACTACAGCACTACGACATCAGCACTACGACT
+ACGACTACGACATCACGACACACGACGACATCACGACTAC
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;File3: small-chr.genome (genome file which contains name and length of each chromosome)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;1	80
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The one-liner below extracts 5 basepairs upstream region for each gene and slopBed takes care of strand issues (reverse complement of extracted sequence if gene is on negative strand) and genome size issues (trim the extracted sequence if gene is close to beginning or end of chromosome).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;slopBed -i small-chr-genes.bed -g small-chr.genome -l 5 -r 0 -s | perl -ane &#39;($F[5] eq &amp;quot;+&amp;quot;)? $F[2]=$F[1] : $F[1]=$F[2]; print join&amp;quot;\t&amp;quot;,@F;print&amp;quot;\n&amp;quot;&#39;  | slopBed -i stdin -g small-chr.genome -l 0 -r 5 -s | fastaFromBed -fi small-chr.fa -bed stdin -fo stdout -name -s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The output looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;&amp;gt;gene1
+TACGA
+&amp;gt;gene2
+TGATG
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let me try to explain how it works, first I extend each gene 5 basepair to its upstream. Then I mark the beginning of the extended region by converting it into single nucleotide region. I use slopBed again, to extend from the mark in opposite direction for 5 basepairs. Now we have the upstream region start and end coordinates, and by the help of fastaFromBed, the upstream region sequence was extracted from genome sequence.&lt;/p&gt;
+&lt;p&gt;bedtools has a tool named subtractBed and I was thinking that combination of slopBed, subtractBed and fastaFromBed should be the solution. However, probably due to genes that are overlapping, subtracting gene region from extended region didn&amp;rsquo;t work as well as I expected. That&amp;rsquo;s why I integrated a perl one-liner to take care of subtracting the gene region from extended region.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; : bedtools developer &lt;a href=&#34;http://obx.cphg.virginia.edu/quinlan/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aaron Quinlan&lt;/a&gt; was kind enough to develop a new tool to accomplish the task described above. &amp;ldquo;flankBed&amp;rdquo; does exactly what is described above and it&amp;rsquo;s much simpler. Here&amp;rsquo;s the flankBed equivalent of extracting upstream regions:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;flankBed -i small-chr-genes.bed -g small-chr.genome -l 5 -r 0 -s | fastaFromBed -fi small-chr.fa -bed stdin -fo stdout -name -s
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>perl one-liner to pick random sequences from fasta file</title>
+      <link>http://alperyilmaz.site/post/2010-07-15-perl-one-liner-to-pick-random-sequences-from-fasta-file/</link>
+      <pubDate>Thu, 15 Jul 2010 08:03:53 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2010-07-15-perl-one-liner-to-pick-random-sequences-from-fasta-file/</guid>
+      <description>&lt;p&gt;In an earlier [post]({{ ref &amp;ldquo;post/perl-one-liner-to-process-sequence-files-in-stream.md&amp;rdquo; }}) we learned how to use Bio::SeqIO module to process fasta files with one-liner. Let&amp;rsquo;s do more with this capability. What about selecting random sequences from a fasta file?&lt;/p&gt;
+&lt;p&gt;To achieve that, we&amp;rsquo;ll load the fasta file contents into a hash and then utilize the fact that &lt;code&gt;rand(@array)&lt;/code&gt; returns index of a random element from that array.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s pick 100 random sequences from a fasta file with one-liner:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;.. fasta file stream .. | perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN);while ($myseq=$seq-&amp;gt;next_seq){ $hash{$myseq-&amp;gt;id}=$myseq-&amp;gt;seq }; END{@ids = keys %hash; foreach (1..100){my $index=rand(@ids); print &amp;quot;&amp;gt;&amp;quot;,$ids[$index],&amp;quot;\n&amp;quot;,$hash{$ids[$index]},&amp;quot;\n&amp;quot; } }&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: If this one-liner throws problem about first sequence, please indicate the format of the input. Since read ahead is not possible in a pipe, the format might not be guessed correctly. So, please update the one-liner with this: &lt;code&gt;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN, -format=&amp;gt;&amp;quot;fasta&amp;quot;)&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Way more practical one-liners with perl5i</title>
+      <link>http://alperyilmaz.site/post/2010-04-26-way-more-practical-one-liners-with-perl5i/</link>
+      <pubDate>Mon, 26 Apr 2010 23:48:05 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2010-04-26-way-more-practical-one-liners-with-perl5i/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://search.cpan.org/dist/perl5i/lib/perl5i.pm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;perl5i&lt;/a&gt; project explains itself as &amp;ldquo;Perl 5 has a lot of warts, fix as much of it as possible in one pragma&amp;rdquo;. You can run your scripts with it by including perl5i (ie, use perl5i;). Best part is, it can be run at commandline with &lt;code&gt;$ perl5i -e&lt;/code&gt; .&lt;/p&gt;
+&lt;p&gt;perl5i includes &lt;a href=&#34;http://search.cpan.org/~swalters/autobox-Core-1.2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Autobox module&lt;/a&gt; which lets you call methods on primitive datatypes such as scalars and arrays (eg. &amp;ldquo;hello world&amp;rdquo;-&amp;gt;print). This feature allows constructing very compact one-liners as shown below:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl5i -e &#39;my @arr = ( 1 .. 10 ); @arr-&amp;gt;map(sub {$_ ** 4 })-&amp;gt;grep(sub { $_ &amp;gt; 3 })-&amp;gt;sum-&amp;gt;say&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Explanation: calculate to the 4th power for each element of @arr. Of those 4th power numbers, filter out the ones smaller than 3. Then sum up the new array and print the result.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl5i -e &#39;my @test=(1,2,3,4); my @compare=(2,4,6); @test-&amp;gt;intersect(\@compare)-&amp;gt;size-&amp;gt;concat(&amp;quot;\t&amp;quot;)-&amp;gt;print&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Explanation: Find the intersection of two arrays (assigned to new array) and add tab character to size of (intersection) array and then print it.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl5i -e &#39; my $hashref = { foo =&amp;gt; 10, bar =&amp;gt; 20, baz =&amp;gt; 30, quux =&amp;gt; 40 }; $hashref-&amp;gt;values-&amp;gt;sort-&amp;gt;join(&amp;quot;-&amp;quot;)-&amp;gt;say&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Explanation: sort the values of hash and print them by joining with &amp;ldquo;-&amp;rdquo; character.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Most used commands in history</title>
+      <link>http://alperyilmaz.site/post/2010-04-08-most-used-commands-in-history/</link>
+      <pubDate>Thu, 08 Apr 2010 09:11:53 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2010-04-08-most-used-commands-in-history/</guid>
+      <description>&lt;p&gt;Most of the &amp;ldquo;most used commands&amp;rdquo; approaches does not consider pipes and other complexities.&lt;/p&gt;
+&lt;p&gt;This approach considers pipes, process substitution by backticks or &lt;code&gt;$()&lt;/code&gt; and multiple commands separated by &lt;code&gt;;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Perl regular expression breaks up each line using &lt;code&gt;|&lt;/code&gt; or &lt;code&gt;&amp;lt;(&lt;/code&gt; or &lt;code&gt;;&lt;/code&gt; or ` or &lt;code&gt;$(&lt;/code&gt; and picks the first word (excluding &amp;ldquo;do&amp;rdquo; in case of for loops)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;history | perl -F&amp;quot;\||&amp;lt;\(|;|\`|\\$\(&amp;quot; -alne &#39;foreach (@F) { print $1 if /\b((?!do)[a-z]+)\b/i }&#39; | sort | uniq -c | sort -nr | head
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let&amp;rsquo;s generate a fake history file which looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;1  command file | command file | command | command
+2  command &amp;lt;(command file) &amp;lt;(command file)
+3  command file &amp;gt; file
+4  for i in `command file`; do command file; command file; done | command
+5  for i in $(command file); do command file; command file | command; done
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This approach successfully counts 16 occurrences of &amp;ldquo;command&amp;rdquo; and 2 occurrences of &amp;ldquo;for&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Note: if you are using lots of perl one-liners, the perl commands/functions will be counted as well in this approach, since semicolon is used as a separator&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>One line statistics</title>
+      <link>http://alperyilmaz.site/post/2010-04-02-one-line-statistics/</link>
+      <pubDate>Fri, 02 Apr 2010 13:05:52 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2010-04-02-one-line-statistics/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s assume we have a file with five columns where first column is text and rest of the columns are numeric. How can we calculate the standard deviation (or other statistical functions) with a perl one-liner?&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll use &lt;a href=&#34;http://search.cpan.org/~shlomif/Statistics-Descriptive-3.0100/lib/Statistics/Descriptive.pm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Statistics::Descriptive&lt;/a&gt; module.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -MStatistics::Descriptive -ane &#39;BEGIN{our $stat = Statistics::Descriptive::Full-&amp;gt;new}; $stat-&amp;gt;add_data(@F[1..4]); print $stat-&amp;gt;standard_deviation,&amp;quot;\n&amp;quot;; $stat-&amp;gt;clear&#39; filename
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;$stat-&amp;gt;clear&lt;/code&gt; at the end was needed since data is added not assigned to $stat each time, so in order to prevent cumulative calculation, &lt;code&gt;$stat&lt;/code&gt; variable should be cleared each time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>perl one-liner to process sequence files in stream</title>
+      <link>http://alperyilmaz.site/post/2010-04-01-perl-one-liner-to-process-sequence-files-in-stream/</link>
+      <pubDate>Thu, 01 Apr 2010 02:43:57 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2010-04-01-perl-one-liner-to-process-sequence-files-in-stream/</guid>
+      <description>&lt;p&gt;Need a practical way to process fasta files with Bio::SeqIO module ? Below code will print sequence id and sequence length with tab per line.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN);while ($myseq=$seq-&amp;gt;next_seq){print $myseq-&amp;gt;id,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;length,&amp;quot;\n&amp;quot;;}&#39; &amp;lt; filename 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;OR&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cat filename | perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN);while ($myseq=$seq-&amp;gt;next_seq){print $myseq-&amp;gt;id,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;length,&amp;quot;\n&amp;quot;;}&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;There are many more methods to use from &lt;a href=&#34;http://doc.bioperl.org/releases/bioperl-current/bioperl-live/Bio/Seq.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bio::Seq&lt;/a&gt;, such as revcom, translate, subseq(start,end), primary_id, desc, etc.&lt;/p&gt;
+&lt;p&gt;Piped file does not need to be in Fasta format, there are many other formats (listed &lt;a href=&#34;http://www.bioperl.org/wiki/HOWTO:SeqIO&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;) which SeqIO can parse successfully.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;UPDATE&lt;/em&gt;: If you are using this one-liner in a pipe, you might need to declare the format so that the stream is processed correctly. Also, in order to retrieve Bio::Seq methods, please use &amp;ldquo;-&amp;gt;seq&amp;rdquo; to access the final sequence.&lt;/p&gt;
+&lt;p&gt;Considering all these updates, the one-liner should look like this:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN,-format=&amp;gt;&amp;quot;fasta&amp;quot;);while ($myseq=$seq-&amp;gt;next_seq){print $myseq-&amp;gt;id,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;length,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;seq,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;translate-&amp;gt;seq,&amp;quot;\n&amp;quot;;}&#39;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Top ten occurrences with perl one-liner</title>
+      <link>http://alperyilmaz.site/post/2010-03-30-top-ten-occurrences-with-perl-one-liner/</link>
+      <pubDate>Tue, 30 Mar 2010 13:56:19 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2010-03-30-top-ten-occurrences-with-perl-one-liner/</guid>
+      <description>&lt;p&gt;Very nice perl one-liner using map, sort and array range to show top ten occurrences&lt;/p&gt;
+&lt;p&gt;Taken from &lt;a href=&#34;http://www.sakana.fr/blog/2010/03/02/perl-counting-occurences-of-ip-addresses-in-apache-logs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tech@Sakana blog&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -ane &#39;$c{$F[0]}++; END {print map {$_ . &amp;quot;\t-&amp;gt;\t&amp;quot; . $c{$_} . &amp;quot;\n&amp;quot;} (sort {$c{$b} &amp;lt;=&amp;gt; $c{$a}} keys %c)[0..9]}&#39; filename
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Same thing can be achieved by:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sort filename | uniq -c | sort -nr | head
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But the perl one-liner demonstrates the nice combination of sort and map.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>perl one-liner to change table layout with Hash-of-Hash-of-Array</title>
+      <link>http://alperyilmaz.site/post/2010-03-25-perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array/</link>
+      <pubDate>Thu, 25 Mar 2010 01:42:53 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2010-03-25-perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array/</guid>
+      <description>&lt;p&gt;I really like one-liners which can do a lot in a single line.. I wanted to share one I just used to arrange a big table.&lt;/p&gt;
+&lt;p&gt;In the list of proteins below, only two proteins are shown, one protein has multiple attributes for 4 categories (InterPro, Cellular Component, Biological Process and Molecular Function). The other thing to notice is that, not all proteins have to have all the attributes, for instance, one protein might miss BiologicalProcess attribute.&lt;/p&gt;
+&lt;table style=&#34;border-collapse: collapse;&#34; border=&#34;1&#34; cellpadding=&#34;2&#34; cellspacing=&#34;2&#34;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein1
+    &lt;/td&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  Interpro
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td&amp;gt;
+  kinase
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein1
+    &lt;/td&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  BiologicalProcess
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td&amp;gt;
+  protein folding
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein1
+    &lt;/td&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  BiologicalProcess
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td&amp;gt;
+  metabolic process
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein1
+    &lt;/td&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  MolecularFunction
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td&amp;gt;
+  DNA binding
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein1
+    &lt;/td&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  CellularComponent
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td&amp;gt;
+  membrane
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein2
+    &lt;/td&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  Interpro
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td&amp;gt;
+  transferase
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein2
+    &lt;/td&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  Interpro
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td&amp;gt;
+  Methyltransferase
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein2
+    &lt;/td&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  CellularComponent
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td&amp;gt;
+  membrane
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein2
+    &lt;/td&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  CellularComponent
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td&amp;gt;
+  integral to membrane
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;Out of this table, I&amp;rsquo;m trying to get the following table:&lt;/p&gt;
+&lt;table style=&#34;border-collapse: collapse;&#34; border=&#34;1&#34; cellpadding=&#34;2&#34; cellspacing=&#34;2&#34;&gt;
+  &lt;tr&gt;
+    &lt;td &gt;
+      ProteinID
+    &lt;/td&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td &amp;gt;
+  InterPro
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td &amp;gt;
+  Cellular Component
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td &amp;gt;
+  Biological Process
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td &amp;gt;
+  Molecular Function
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td &gt;
+      protein1
+    &lt;/td&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td &amp;gt;
+  kinase
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td &amp;gt;
+  membrane
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td &amp;gt;
+  protein folding; metabolic process
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td &amp;gt;
+  DNA binding
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td &gt;
+      protein2
+    &lt;/td&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td &amp;gt;
+  transferase; Methyltransferase
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td &amp;gt;
+  membrane; integral to membrane
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td &amp;gt;
+&amp;lt;/td&amp;gt;
+
+&amp;lt;td &amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;Do you think this is possible with perl one-liner? Yes, it is..&lt;/p&gt;
+&lt;p&gt;Below is the code (suppose that Table 1 is in file called &lt;code&gt;GeneCategories.txt&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -F&amp;quot;\t&amp;quot; -ane &#39;chomp($F[2]); push @{$hash-&amp;gt;{$F[0]}-&amp;gt;{$F[1]}},$F[2]; END {foreach $id (sort keys %$hash){print $id,&amp;quot;\t&amp;quot;; foreach $field qw(Interpro CellularComponent BiologicalProcess MolecularFunction){print join &amp;quot;;&amp;quot;,@{$hash-&amp;gt;{$id}-&amp;gt;{$field}}; print &amp;quot;\t&amp;quot;;}; print &amp;quot;\n&amp;quot;; } }&#39; GeneCategories.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let&amp;rsquo;s breakdown the code now. As we know, you can run perl code within terminal in this format:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -e &#39;code&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you want to run your code in a loop, then -n option should be used. In that case, either a filename should be provided or data should be piped to perl. Auto split can be turned on by -a option which will assign split elements to an array named @F.&lt;/p&gt;
+&lt;p&gt;If I don&amp;rsquo;t indicate that TAB is the separator, then SPACE or TAB is considered as separator. Since my data contains SPACE, I should specifically indicate that TAB is the separator by &lt;code&gt;-F&lt;/code&gt; option.&lt;/p&gt;
+&lt;p&gt;One more thing about running perl in commandline with &lt;code&gt;-n&lt;/code&gt; option. Suppose you wish to run additional code before and/or after the loop, then you should use the following format:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -ne &#39;BEGIN {code1}; code2; END {code3}&#39; filename
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this particular example, code1 will run before looping thru lines of filename and code3 will run after loop ended.&lt;/p&gt;
+&lt;p&gt;Okay, now the meaning of the actual code:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;chomp($F[2])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Last column contains newline character at the end, I am removing it so that final output is not bad.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;push @{$hash-&amp;gt;{$F[0]}-&amp;gt;{$F[1]}},$F[2]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is the core part where one protein can have multiple categories (Hash of hash) and one category can hold multiple values in an array (Hash of hash of array). Whatever is in third column is pushed into an array referred by hash of hash &lt;code&gt;$hash-&amp;gt;{ProteinNo}-&amp;gt;{Category}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;After loop ended, hash structure is printed and mission accomplished..&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Retrieve WP categories from commandline</title>
+      <link>http://alperyilmaz.site/post/2010-01-13-retrieve-wp-categories-from-commandline/</link>
+      <pubDate>Wed, 13 Jan 2010 19:08:15 +0000</pubDate>
+      <guid>http://alperyilmaz.site/post/2010-01-13-retrieve-wp-categories-from-commandline/</guid>
+      <description>&lt;p&gt;Posting to WP from commandline is great. Before I post it, I need to lookup available categories so that I can categorize the new post correctly. To prevent a visit to WP admin GUI, I used the same Perl module for posting to retrieve available categories. Below is the code. I hope it helps you too..&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;use WordPress::XMLRPC;
+my $o = WordPress::XMLRPC-&amp;gt;new({
+   username =&amp;gt; &#39;username&#39;,
+   password =&amp;gt; &#39;password&#39;,
+   proxy =&amp;gt; &#39;http://yourblog-address/xmlrpc.php&#39;,
+ });
+
+my $categories= $o-&amp;gt;getCategories();
+foreach (0..scalar(@$categories)) {
+	print ${$categories}[$_]-&amp;gt;{&#39;categoryId&#39;},&amp;quot;\t&amp;quot;,${$categories}[$_]-&amp;gt;{&#39;categoryName&#39;};
+	if (${$categories}[$_]-&amp;gt;{&#39;parentId&#39;} != 0){
+		print &amp;quot;\tParentId=&amp;quot;,${$categories}[$_]-&amp;gt;{&#39;parentId&#39;},&amp;quot;\n&amp;quot;;
+		}
+	else {print &amp;quot;\n&amp;quot;}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
