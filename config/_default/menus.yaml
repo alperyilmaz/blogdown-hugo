@@ -30,7 +30,7 @@ main:
     weight: 52
   - name: 'Journal Articles'
     parent: publications
-    url: publication/journal-articles/
+    url: publication/journal-article/
     weight: 53
   - name: 'Conference Abstracts'
     parent: publications
