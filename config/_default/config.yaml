@@ -6,7 +6,8 @@ theme: "starter-hugo-academic"
 
 title: Assoc.Prof.Dr. Alper YILMAZ # Website name
 #baseurl: 'http://alperyilmaz.site/' # Website URL
-baseurl: 'https://alpeyilmaz.github.io/blogdown-hugo/'
+#baseurl: 'https://alpeyilmaz.github.io/blogdown-hugo/'
+baseurl: '/'
 copyright: '&copy; 2021' # Footer text, e.g. '© {year} Me'
 
 ############################
