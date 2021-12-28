@@ -25,7 +25,7 @@ tags:
   - Prebiotics
   - Probiotics
   - Gut Microbiota
-title: Prebiotics and Probiotics= Break the ‘Self-Domino Effect’ for obesity Treatment
+title: Prebiotics and Probiotics: Break the ‘Self-Domino Effect’ for obesity Treatment
 url_code: 
 url_dataset: 
 url_pdf: http://www.bingol.edu.tr/documents/IVEK_2017_Bildiri_Kitabi(1)(2).pdf
