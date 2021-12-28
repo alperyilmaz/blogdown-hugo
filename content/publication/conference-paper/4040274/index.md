@@ -1,5 +1,6 @@
 ---
-abstract: K-mer frequency of any DNA sequence is calculated by counting occurrences of all
+abstract: | 
+K-mer frequency of any DNA sequence is calculated by counting occurrences of all
 possible substrings of length k. The k-mer frequency of genome or next generation
 sequencing data is an invaluable tool to gain insights about the DNA sequence and
 its grammar. For genomes, k-mer counts can be used for motif discovery,
@@ -40,13 +41,13 @@ projects:
 publication: In *International Congress on Advances in Bioscience and Biotechnology*
 publication_short: 
 publication_types:
-- "4"
+- "1"
 slides: 
 summary: 
 tags:
-- K-mer
-- Fractal
-- Genome
+  - K-mer
+  - Fractal
+  - Genome
 title: Generating Lossless Compression Of Genome Scale K-Mer Frequency Table As Raster Image
 url_code: 
 url_dataset: 
