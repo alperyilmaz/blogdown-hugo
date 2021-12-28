@@ -18,8 +18,8 @@ publication_types:
 slides: 
 summary: 
 tags:
-  - Tissue specific
-  - Gene expression
+  - Tissue Specific
+  - Gene Expression
   - RNA-Seq
 title: Robust and Rigorous Classification of Tissue Specific Genes
 url_code: 
