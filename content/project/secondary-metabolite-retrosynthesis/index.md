@@ -2,7 +2,7 @@
 date: "2021-12-17T00:00:00+03:00"
 external_link: ""
 image:
-  caption: "Retrosynthesis plan-Step 1"
+  caption: "Retrosynthesis"
   focal_point: Smart
 links:
 - icon: twitter

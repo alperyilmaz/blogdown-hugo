@@ -1,36 +1,38 @@
 ---
 abstract: ..
 authors:
-- KALYON OĞUZHAN
-- YILMAZ ALPER
+- Oguzhan Kalyon
+- Alper Yilmaz
 date: "2017-07-01T00:00:00+03:00"
 doi: ""
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 
   focal_point: ""
 links:
 - name: Custom Link
-  url: http://example.org
+  url: 
 projects:
-- internal-project
+- chimeric-transcripts
 publication: In *International DNA Day and Genom Congress*
 publication_short: In *IDDGC17*
 publication_types:
-- "4"
-slides: example
-summary: .
+- "1"
+slides: 
+summary: 
 tags:
-- Source Themes
+- RNA-Seq
+- HIV
+- Chimeric mRNA
 title: Survey of Chimeric mRNAs in HIV Infected Patient RNA-SEQ Data
-url_code: '#'
-url_dataset: '#'
-url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
-url_poster: '#'
-url_project: ""
-url_slides: ""
-url_source: '#'
-url_video: '#'
+url_code: 
+url_dataset: 
+url_pdf: 
+url_poster: 
+url_project: 
+url_slides: 
+url_source: 
+url_video: 
 ---
 
 {{% callout note %}}
