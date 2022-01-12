@@ -21,7 +21,7 @@ url_slides:
 url_video: 
 ---
 
-![metabolic_net](metabolic_networks.jpeg)
+![metabolic_net](metabolic_networks.jpg)
 
 
 Metabolic networks are excellent tools for exploring biochemical interconnections in the expression of genotype to phenotype in the cell. Since the biochemical processes in the cell are the result or cause of many abnormalities, metabolic networks are illuminating in many different diseases such as cancer, cardiovascular or neural diseases, as well as metabolic diseases like diabetes or obesity.
