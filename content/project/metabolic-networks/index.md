@@ -2,19 +2,13 @@
 date: "2022-01-10T00:00:00+03:00"
 external_link: ""
 image:
-  caption: "Metabolic Networks"
+  caption: Metabolic Networks
   focal_point: Smart
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/alperyilmaz
-slides: 
-summary:
+summary: Exploring Biochemical interactions with metabolic networks
 tags:
   - RNA-Seq
   - Metabolic Networks
-title: "Metabolic Networks"
+title: Metabolic Networks
 url_code: 
 url_pdf: 
 url_slides: 
