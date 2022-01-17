@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/alperyilmaz
 slides: 
-summary:
+summary: Network Based modelling of miRNA:ceRNA interactions
 tags:
   - ceRNA Interactions
   - Network Modelling
