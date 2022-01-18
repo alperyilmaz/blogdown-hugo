@@ -14,5 +14,12 @@ abstract: |
   
 featured: false
 publication: "*Current HIV Research*"
+tags:
+  - 5' untranslated region
+  - Retrovirus translational control
+  - Internal ribosome entry site
+  - Ribosome scanning
+  - Unspliced RNA
+url_pdf: "https://www.ingentaconnect.com/content/ben/chr/2006/00000004/00000002/art00002"
 doi: 10.2174/157016206776055039
 ---

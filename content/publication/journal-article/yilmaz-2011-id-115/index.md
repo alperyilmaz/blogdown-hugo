@@ -1,5 +1,5 @@
 ---
-title: 'AGRIS: the Arabidopsis Gene Regulatory Information Server, an update.'
+title: 'AGRIS: the Arabidopsis Gene Regulatory Information Server, an update'
 date: 2011-01-01
 authors: 
   - Alper Yilmaz 
@@ -17,7 +17,7 @@ abstract: |
   
 featured: false
 publication: "*Nucleic Acids Res*"
-url_pdf: "http://www.pubmed.org/21059685"
+url_pdf: "https://academic.oup.com/nar/article/39/suppl_1/D1118/2507036"
 doi: 10.1093/nar/gkq1120
 ---
 

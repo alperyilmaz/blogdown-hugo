@@ -1,5 +1,5 @@
 ---
-title: 'Unraveling the KNOTTED1 regulatory network in maize meristems.'
+title: 'Unraveling the KNOTTED1 regulatory network in maize meristems'
 date: 2012-08-01
 authors: 
   - Nathalie Bolduc
@@ -17,6 +17,11 @@ abstract: |
 
 featured: false
 publication: "*Genes & Development*"
+tags:
+  - KNOX transcription factors
+  - Chromatin immunoprecipitation
+  - Gene regulation
+  - Maize
 url_pdf: "https://www.ncbi.nlm.nih.gov/pubmed/22855831"
 doi: 10.1101/gad.193433.112
 ---

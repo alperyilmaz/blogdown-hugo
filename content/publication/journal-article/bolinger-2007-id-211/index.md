@@ -1,5 +1,5 @@
 ---
-title: 'RNA helicase A interacts with divergent lymphotropic retroviruses and promotes translation of human T-cell leukemia virus type 1.'
+title: 'RNA helicase A interacts with divergent lymphotropic retroviruses and promotes translation of human T-cell leukemia virus type 1'
 date: 2007-01-01
 authors:
   - Cheryl Bolinger
