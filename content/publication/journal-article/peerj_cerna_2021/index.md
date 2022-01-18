@@ -15,8 +15,8 @@ featured: false
 projects:
   - cerna-interactions
 tags:
-  - Network Modelling
-  - ceRNA Interactions
+  - Network modelling
+  - ceRNA interactions
 publication: "*PeerJ*"
 url_pdf: "https://peerj.com/articles/11121/"
 doi: 10.7717/peerj.11121

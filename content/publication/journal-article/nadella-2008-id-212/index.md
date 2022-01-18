@@ -1,5 +1,5 @@
 ---
-title: 'NOD/SCID mouse model of canine T-cell lymphoma with humoral hypercalcaemia of malignancy: cytokine gene expression profiling and in vivo bioluminescent imaging.'
+title: 'NOD/SCID mouse model of canine T-cell lymphoma with humoral hypercalcaemia of malignancy: cytokine gene expression profiling and in vivo bioluminescent imaging'
 date: 2008-03-01
 authors:
   - M V P Nadella
@@ -20,6 +20,12 @@ abstract: |
   
 featured: false
 publication: "*Veterinary and Comparative Oncology*"
+tags:
+  - Bioluminescent imaging
+  - Canine lymphoma
+  - Humoral hypercalcaemia of malignancy
+  - PTHrP
+  - Xenograft
 url_pdf: "https://www.ncbi.nlm.nih.gov/pubmed/19178662"
 doi: 10.1111/j.1476-5829.2007.00139.x
 ---

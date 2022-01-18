@@ -1,5 +1,5 @@
 ---
-title: 'Important biological information uncovered in previously unaligned reads from chromatin immunoprecipitation experiments (ChIP-Seq).'
+title: 'Important biological information uncovered in previously unaligned reads from chromatin immunoprecipitation experiments (ChIP-Seq)'
 date: 2015-03-01
 authors:
   - Wilberforce Zachary Ouma
@@ -18,6 +18,9 @@ abstract: |
 
 featured: false
 publication: "*Scientific Reports*"
+tags:
+  - Gene regulatory networks
+  - Bioinformatics
 url_pdf: "https://www.ncbi.nlm.nih.gov/pubmed/25727450"
 doi: 10.1038/srep08635
 ---

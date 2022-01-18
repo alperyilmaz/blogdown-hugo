@@ -14,6 +14,13 @@ abstract: |
   
 featured: false
 publication: "*2009 Ohio Collaborative Conference on Bioinformatics*"
+tags:
+  - Transcription factor
+  - Promoter
+  - cis-regulatory element
+  - Gene regulatory network
+  - Plant biology 
+url_pdf: "https://ieeexplore.ieee.org/abstract/document/5159163"
 doi: 10.1109/OCCBIO.2009.13
 ---
 

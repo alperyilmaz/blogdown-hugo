@@ -1,5 +1,5 @@
 ---
-title: 'POPcorn: An Online Resource Providing Access to Distributed and Diverse Maize Project Data.'
+title: 'POPcorn: An Online Resource Providing Access to Distributed and Diverse Maize Project Data'
 date: 2011-01-01
 authors: 
   - Ethalinda K S Cannon

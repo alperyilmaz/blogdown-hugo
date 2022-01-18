@@ -1,5 +1,5 @@
 ---
-title: 'Molecular basis for the action of a dietary flavonoid revealed by the comprehensive identification of apigenin human targets.'
+title: 'Molecular basis for the action of a dietary flavonoid revealed by the comprehensive identification of apigenin human targets'
 date: 2013-06-01
 authors: 
   - Daniel Arango
@@ -18,6 +18,11 @@ abstract: |
 
 featured: false
 publication: "*Proc Natl Acad Sci U S A*"
+tags:
+  - FRET
+  - cancer
+  - Inflammation
+  - Nanosensor
 url_pdf: "https://www.ncbi.nlm.nih.gov/pubmed/23697369"
 doi: 10.1073/pnas.1303726110
 ---

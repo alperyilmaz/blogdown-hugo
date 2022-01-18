@@ -1,5 +1,5 @@
 ---
-title: 'Components and mechanisms of regulation of gene expression.'
+title: 'Components and mechanisms of regulation of gene expression'
 date: 2010-01-01
 authors:
   - Alper Yilmaz
@@ -13,6 +13,13 @@ abstract: |
   
 featured: false
 publication: "*Methods in Molecular Biology (Clifton, N.J.)*"
+tags:
+  - Promoter
+  - DNA-binding 
+  - Operon 
+  - cis-regulatory element 
+  - microRNA 
+  - small interfering RNA 
 url_pdf: "https://www.ncbi.nlm.nih.gov/pubmed/20827583"
 doi: 10.1007/978-1-60761-854-6_2
 ---
