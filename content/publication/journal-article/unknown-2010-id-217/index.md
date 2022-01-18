@@ -2,7 +2,7 @@
 title: 'Genome sequencing and analysis of the model grass Brachypodium distachyon'
 date: 2010-02-01
 authors:
-  - International Brachypodium Initiative
+  - The International Brachypodium Initiative
 
 publication_types:
   - 2
