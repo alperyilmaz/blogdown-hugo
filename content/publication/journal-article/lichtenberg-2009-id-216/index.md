@@ -32,6 +32,13 @@ abstract: |
 
 featured: false
 publication: "*2009 Ohio Collaborative Conference on Bioinformatics*"
+tags:
+  - Motif discovery
+  - Regulatory genomics
+  - Transcription factor binding site discovery
+  - Regulatory elements
+  - Gene regulation
+  - cis-regulatory element discovery
 url_pdf: "https://ieeexplore.ieee.org/abstract/document/5159164"
 doi: 10.1109/OCCBIO.2009.9
 ---
