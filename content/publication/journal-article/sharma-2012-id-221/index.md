@@ -1,5 +1,5 @@
 ---
-title: 'Thriving under stress: selective translation of HIV-1 structural protein mRNA during Vpr-mediated impairment of eIF4E translation activity.'
+title: 'Thriving under stress: selective translation of HIV-1 structural protein mRNA during Vpr-mediated impairment of eIF4E translation activity'
 date: 2012-01-01
 authors: 
   - Amit Sharma
