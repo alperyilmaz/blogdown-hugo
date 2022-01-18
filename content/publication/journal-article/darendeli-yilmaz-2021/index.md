@@ -14,6 +14,12 @@ abstract: |
   
 featured: false
 publication: "*Journal of Intelligent Systems: Theory and Applications*"
+tags:
+  - TCGA
+  - RNA-Seq
+  - Cancer
+  - CNN
+  - Gene expression
 url_pdf: "https://dergipark.org.tr/en/pub/jista/issue/61285/946954"
 doi: 10.38016/jista.946954
 ---
