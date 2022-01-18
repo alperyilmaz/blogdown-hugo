@@ -1,5 +1,5 @@
 ---
-title: 'Molecular basis for the action of a dietary flavonoid revealed by the comprehensive identification of apigenin human targets.'
+title: 'Molecular basis for the action of a dietary flavonoid revealed by the comprehensive identification of apigenin human targets'
 date: 2013-06-01
 authors: 
   - Daniel Arango
