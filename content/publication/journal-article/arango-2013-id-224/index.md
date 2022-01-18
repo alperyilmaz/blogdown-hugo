@@ -18,6 +18,11 @@ abstract: |
 
 featured: false
 publication: "*Proc Natl Acad Sci U S A*"
+tags:
+  - FRET
+  - cancer
+  - Inflammation
+  - Nanosensor
 url_pdf: "https://www.ncbi.nlm.nih.gov/pubmed/23697369"
 doi: 10.1073/pnas.1303726110
 ---
