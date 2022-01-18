@@ -1,5 +1,5 @@
 ---
-title: 'GRASSIUS: a platform for comparative regulatory genomics across the grasses.'
+title: 'GRASSIUS: a platform for comparative regulatory genomics across the grasses'
 date: 2009-01-01
 authors: 
   - Alper Yilmaz
