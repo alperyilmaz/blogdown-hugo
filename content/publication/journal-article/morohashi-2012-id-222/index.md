@@ -1,5 +1,5 @@
 ---
-title: 'A genome-wide regulatory framework identifies maize pericarp color1 controlled genes.'
+title: 'A genome-wide regulatory framework identifies maize pericarp color1 controlled genes'
 date: 2012-07-01
 authors:
   - Kengo Morohashi
